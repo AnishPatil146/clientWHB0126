@@ -3,7 +3,10 @@ import { io } from 'socket.io-client';
 import { signInWithPopup, RecaptchaVerifier, signInWithPhoneNumber } from 'firebase/auth';
 import { auth, googleProvider } from './firebase';
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || (window.location.hostname === 'localhost' ? 'http://localhost:5000' : window.location.origin);
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 
+  (window.location.hostname === 'localhost' ? 'http://localhost:5000' : 
+   window.location.hostname.includes('vercel.app') ? 'https://clientwhb0126.onrender.com' : 
+   window.location.origin);
 
 const LONG_FORM_TEMPLATE = `Dear Business Owner,
 
