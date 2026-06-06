@@ -1,0 +1,151 @@
+import React, { useState, useEffect } from 'react';
+import { initializeApp } from 'firebase/app';
+import {
+    getAuth,
+    RecaptchaVerifier,
+    signInWithPhoneNumber
+} from 'firebase/auth';
+
+// 1. Replace with your actual Firebase config object from your dashboard
+const firebaseConfig = {
+    apiKey: "YOUR_VITE_OR_NEXT_PUBLIC_FIREBASE_API_KEY",
+    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_PROJECT_ID.appspot.com",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+
+export default function PhoneLogin() {
+    const [phoneNumber, setPhoneNumber] = useState('');
+    const [otp, setOtp] = useState('');
+    const [confirmationResult, setConfirmationResult] = useState(null);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState('');
+    const [success, setSuccess] = useState('');
+
+    useEffect(() => {
+        // 2. Set up the invisible reCAPTCHA verifier on component mount
+        window.recaptchaVerifier = new RecaptchaVerifier(auth, 'recaptcha-container', {
+            'size': 'invisible',
+            'callback': (response) => {
+                // reCAPTCHA solved, allow signInWithPhoneNumber.
+            },
+            'expired-callback': () => {
+                setError('reCAPTCHA expired. Please try again.');
+            }
+        });
+
+        return () => {
+            if (window.recaptchaVerifier) {
+                window.recaptchaVerifier.clear();
+            }
+        };
+    }, []);
+
+    // 3. Send OTP to user's phone
+    const handleSendOtp = async (e) => {
+        e.preventDefault();
+        setError('');
+        setSuccess('');
+        setLoading(true);
+
+        // Ensure phone number includes country code (e.g., +919876543210)
+        if (!phoneNumber.startsWith('+')) {
+            setError('Please include your country code (e.g., +91 for India)');
+            setLoading(false);
+            return;
+        }
+
+        try {
+            const appVerifier = window.recaptchaVerifier;
+            const confirmation = await signInWithPhoneNumber(auth, phoneNumber, appVerifier);
+            setConfirmationResult(confirmation);
+            setSuccess('OTP sent successfully!');
+        } catch (err) {
+            console.error(err);
+            setError(err.message || 'Failed to send OTP. Check your phone number.');
+            // Reset reCAPTCHA on failure
+            if (window.recaptchaVerifier) {
+                window.recaptchaVerifier.render().then((widgetId) => {
+                    grecaptcha.reset(widgetId);
+                });
+            }
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    // 4. Verify the OTP entered by user
+    const handleVerifyOtp = async (e) => {
+        e.preventDefault();
+        setError('');
+        setSuccess('');
+        setLoading(true);
+
+        try {
+            const result = await confirmationResult.confirm(otp);
+            const user = result.user;
+            setSuccess(`Successfully signed in! Welcome UID: ${user.uid}`);
+            console.log('User object:', user);
+        } catch (err) {
+            console.error(err);
+            setError('Invalid OTP code. Please try again.');
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    return (
+        <div style={{ maxWidth: '400px', margin: '50px auto', padding: '20px', fontFamily: 'sans-serif' }}>
+            <h2>Firebase Phone Authentication</h2>
+
+            {/* Hidden reCAPTCHA anchor container required by Firebase */}
+            <div id="recaptcha-container"></div>
+
+            {error && <p style={{ color: 'red' }}>{error}</p>}
+            {success && <p style={{ color: 'green' }}>{success}</p>}
+
+            {!confirmationResult ? (
+                <form onSubmit={handleSendOtp}>
+                    <div style={{ marginBottom: '15px' }}>
+                        <label style={{ display: 'block', marginBottom: '5px' }}>Phone Number (with country code):</label>
+                        <input
+                            type="tel"
+                            placeholder="+919876543210"
+                            value={phoneNumber}
+                            onChange={(e) => setPhoneNumber(e.target.value)}
+                            required
+                            style={{ width: '100%', padding: '8px', boxSizing: 'border-box' }}
+                        />
+                    </div>
+                    <button type="submit" disabled={loading} style={{ width: '100%', padding: '10px', cursor: 'pointer' }}>
+                        {loading ? 'Sending...' : 'Send OTP'}
+                    </button>
+                </form>
+            ) : (
+                <form onSubmit={handleVerifyOtp}>
+                    <div style={{ marginBottom: '15px' }}>
+                        <label style={{ display: 'block', marginBottom: '5px' }}>Enter 6-Digit OTP:</label>
+                        <input
+                            type="text"
+                            placeholder="123456"
+                            value={otp}
+                            onChange={(e) => setOtp(e.target.value)}
+                            required
+                            maxLength={6}
+                            style={{ width: '100%', padding: '8px', boxSizing: 'border-box', textAlign: 'center', letterSpacing: '4px' }}
+                        />
+                    </div>
+                    <button type="submit" disabled={loading} style={{ width: '100%', padding: '10px', cursor: 'pointer' }}>
+                        {loading ? 'Verifying...' : 'Verify OTP'}
+                    </button>
+                </form>
+            )}
+        </div>
+    );
+}

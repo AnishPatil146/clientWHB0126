@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { io } from 'socket.io-client';
-import { signInWithPopup } from 'firebase/auth';
+import { signInWithPopup, RecaptchaVerifier, signInWithPhoneNumber } from 'firebase/auth';
 import { auth, googleProvider } from './firebase';
 
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || (window.location.hostname === 'localhost' ? 'http://localhost:5000' : window.location.origin);
@@ -70,6 +70,7 @@ export default function App() {
   const [emailWarning, setEmailWarning] = useState('');
   const [otpChannel, setOtpChannel] = useState(''); // 'whatsapp' | 'sms' | 'email' | 'email-console'
   const [loginLoading, setLoginLoading] = useState(false);
+  const [confirmationResult, setConfirmationResult] = useState(null);
 
   // WhatsApp QR Connection state
   const [qrLoading, setQrLoading] = useState(false);
@@ -404,38 +405,62 @@ export default function App() {
     setEmailError('');
     setEmailWarning('');
     setOtpChannel('');
-    try {
-      const payload = loginMethod === 'phone'
-        ? { phone: `${countryCode}${phone}` }
-        : { email };
-      const res = await fetch(`${BACKEND_URL}/api/auth/otp/send`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      const data = await res.json();
-      if (data.success) {
-        setOtpChannel(data.channel || (loginMethod === 'email' ? 'email' : 'whatsapp'));
-        if (data.warning) {
-          setEmailWarning(data.warning);
+    
+    if (loginMethod === 'phone') {
+      try {
+        if (!window.recaptchaVerifier) {
+          window.recaptchaVerifier = new RecaptchaVerifier(auth, 'recaptcha-container', {
+            'size': 'invisible',
+            'callback': (response) => {
+              // reCAPTCHA solved
+            },
+            'expired-callback': () => {
+              setPhoneError('reCAPTCHA expired. Please try again.');
+            }
+          });
         }
+        
+        const fullPhone = `${countryCode}${phone}`;
+        console.log('Sending OTP via Firebase for phone:', fullPhone);
+        const confirmation = await signInWithPhoneNumber(auth, fullPhone, window.recaptchaVerifier);
+        setConfirmationResult(confirmation);
+        setOtpChannel('sms');
         setStep(2);
-      } else {
-        if (loginMethod === 'phone') {
-          setPhoneError(data.error || 'Failed to send OTP.');
+      } catch (err) {
+        console.error(err);
+        setPhoneError(err.message || 'Failed to send OTP via Firebase.');
+        if (window.recaptchaVerifier) {
+          window.recaptchaVerifier.clear();
+          window.recaptchaVerifier = null;
+        }
+      } finally {
+        setLoginLoading(false);
+      }
+    } else {
+      // Email OTP flow
+      try {
+        const payload = { email };
+        const res = await fetch(`${BACKEND_URL}/api/auth/otp/send`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        if (data.success) {
+          setOtpChannel(data.channel || 'email');
+          if (data.warning) {
+            setEmailWarning(data.warning);
+          }
+          setStep(2);
         } else {
           setEmailError(data.error || 'Failed to send OTP.');
         }
-      }
-    } catch (err) {
-      console.error(err);
-      if (loginMethod === 'phone') {
-        setPhoneError('Server connection error. Please try again.');
-      } else {
+      } catch (err) {
+        console.error(err);
         setEmailError('Server connection error. Please try again.');
+      } finally {
+        setLoginLoading(false);
       }
-    } finally {
-      setLoginLoading(false);
     }
   };
 
@@ -444,31 +469,66 @@ export default function App() {
     if (fullOtp.length < 6) return;
     setLoginLoading(true);
     setOtpError('');
-    try {
-      const payload = loginMethod === 'phone'
-        ? { phone: `${countryCode}${phone}`, otp: fullOtp }
-        : { email, otp: fullOtp };
-      const res = await fetch(`${BACKEND_URL}/api/auth/otp/verify`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      const data = await res.json();
-      if (data.success) {
-        setWhatsappConnected(data.whatsappConnected);
-        setConnectedNumber(data.whatsappNumber);
-        if (data.whatsappConnected) {
-          setStep(4);
-        } else {
-          setStep(3);
+    
+    if (loginMethod === 'phone') {
+      try {
+        if (!confirmationResult) {
+          setOtpError('Verification session expired. Please request a new OTP.');
+          setLoginLoading(false);
+          return;
         }
-      } else {
-        setOtpError(data.error || 'Verification failed');
+        const result = await confirmationResult.confirm(fullOtp);
+        const idToken = await result.user.getIdToken();
+        
+        const res = await fetch(`${BACKEND_URL}/api/auth/firebase`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ idToken })
+        });
+        const data = await res.json();
+        if (data.success) {
+          setWhatsappConnected(data.whatsappConnected);
+          setConnectedNumber(data.whatsappNumber);
+          if (data.whatsappConnected) {
+            setStep(4);
+          } else {
+            setStep(3);
+          }
+        } else {
+          setOtpError(data.error || 'Server validation failed for phone login.');
+        }
+      } catch (err) {
+        console.error(err);
+        setOtpError('Invalid OTP code. Please try again.');
+      } finally {
+        setLoginLoading(false);
       }
-    } catch {
-      setOtpError('Error connecting to authentication endpoint.');
-    } finally {
-      setLoginLoading(false);
+    } else {
+      // Email OTP flow
+      try {
+        const payload = { email, otp: fullOtp };
+        const res = await fetch(`${BACKEND_URL}/api/auth/otp/verify`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        if (data.success) {
+          setWhatsappConnected(data.whatsappConnected);
+          setConnectedNumber(data.whatsappNumber);
+          if (data.whatsappConnected) {
+            setStep(4);
+          } else {
+            setStep(3);
+          }
+        } else {
+          setOtpError(data.error || 'Verification failed');
+        }
+      } catch {
+        setOtpError('Error connecting to authentication endpoint.');
+      } finally {
+        setLoginLoading(false);
+      }
     }
   };
 
@@ -801,6 +861,9 @@ export default function App() {
       {/* 3-STEP ONBOARDING GATE */}
       {step < 4 && (
         <div className="min-h-screen bg-slate-50 dark:bg-slate-950 flex flex-col justify-center items-center px-6 py-12 transition-colors">
+          
+          {/* Hidden reCAPTCHA container for Firebase Phone Authentication */}
+          <div id="recaptcha-container"></div>
           
           {/* Logo container */}
           <div className="flex items-center gap-3 mb-8">

@@ -653,8 +653,8 @@ app.post('/api/auth/otp/verify', (req, res) => {
   }
 });
 
-// POST /api/auth/google
-app.post('/api/auth/google', async (req, res) => {
+// POST /api/auth/firebase (Unified Firebase ID Token Auth)
+const handleFirebaseLogin = async (req, res) => {
   const { idToken } = req.body;
   if (!idToken) {
     return res.status(400).json({ success: false, error: 'ID Token is required' });
@@ -662,13 +662,15 @@ app.post('/api/auth/google', async (req, res) => {
 
   try {
     const decodedToken = await admin.auth().verifyIdToken(idToken);
-    const email = decodedToken.email;
-    if (!email) {
-      return res.status(400).json({ success: false, error: 'Email not found in token' });
+    const email = decodedToken.email || null;
+    const phone = decodedToken.phone_number || null;
+
+    if (!email && !phone) {
+      return res.status(400).json({ success: false, error: 'Identity (Email/Phone) not found in token' });
     }
 
     // Sign local JWT
-    const token = jwt.sign({ email }, JWT_SECRET, { expiresIn: '7d' });
+    const token = jwt.sign(email ? { email } : { phone }, JWT_SECRET, { expiresIn: '7d' });
     res.cookie('token', token, {
       httpOnly: true,
       secure: false, // Localhost is HTTP
@@ -679,6 +681,7 @@ app.post('/api/auth/google', async (req, res) => {
     res.json({ 
       success: true, 
       email,
+      phone,
       whatsappConnected: stats.whatsappConnected,
       whatsappNumber: stats.whatsappNumber
     });
@@ -686,7 +689,10 @@ app.post('/api/auth/google', async (req, res) => {
     console.error('Error verifying Firebase token:', err);
     res.status(401).json({ success: false, error: 'Firebase authentication failed: ' + err.message });
   }
-});
+};
+
+app.post('/api/auth/firebase', handleFirebaseLogin);
+app.post('/api/auth/google', handleFirebaseLogin);
 
 // Logout
 app.post('/api/auth/logout', (req, res) => {
