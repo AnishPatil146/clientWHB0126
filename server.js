@@ -323,8 +323,8 @@ app.get('/api/auth/session', (req, res) => {
   }
 });
 
-// POST /api/auth/google  — verify Firebase Google ID token, issue JWT cookie
-app.post('/api/auth/google', async (req, res) => {
+// POST /api/auth/google & /api/auth/firebase — verify Firebase ID token, issue JWT cookie
+app.post(['/api/auth/google', '/api/auth/firebase'], async (req, res) => {
   const { idToken } = req.body;
   if (!idToken) return res.status(400).json({ success: false, error: 'ID Token required' });
   try {
@@ -351,15 +351,9 @@ app.post('/api/auth/google', async (req, res) => {
       whatsappNumber: stats.whatsappNumber
     });
   } catch (err) {
-    console.error('[GOOGLE AUTH] Token verification failed:', err.message);
-    res.status(401).json({ success: false, error: 'Google authentication failed: ' + err.message });
+    console.error('[AUTH] Token verification failed:', err.message);
+    res.status(401).json({ success: false, error: 'Authentication failed: ' + err.message });
   }
-});
-
-// Also accept /api/auth/firebase as alias (in case frontend still calls it)
-app.post('/api/auth/firebase', async (req, res) => {
-  req.url = '/api/auth/google';
-  app._router.handle(req, res);
 });
 
 // POST /api/auth/logout
