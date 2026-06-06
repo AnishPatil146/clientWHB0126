@@ -314,6 +314,7 @@ app.get('/api/auth/session', (req, res) => {
     res.json({
       authenticated: true,
       email: verified.email || null,
+      phone: verified.phone || null,
       state: stats,
       logPreview: messageLogs.slice(0, 10)
     });
@@ -329,9 +330,13 @@ app.post('/api/auth/google', async (req, res) => {
   try {
     const decoded = await admin.auth().verifyIdToken(idToken);
     const email = decoded.email || null;
-    if (!email) return res.status(400).json({ success: false, error: 'Google account has no email' });
+    const phone = decoded.phone_number || null;
+    if (!email && !phone) {
+      return res.status(400).json({ success: false, error: 'Firebase token contains neither email nor phone number' });
+    }
 
-    const token = jwt.sign({ email }, JWT_SECRET, { expiresIn: '7d' });
+    const payload = email ? { email } : { phone };
+    const token = jwt.sign(payload, JWT_SECRET, { expiresIn: '7d' });
     res.cookie('token', token, {
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
@@ -341,6 +346,7 @@ app.post('/api/auth/google', async (req, res) => {
     res.json({
       success: true,
       email,
+      phone,
       whatsappConnected: stats.whatsappConnected,
       whatsappNumber: stats.whatsappNumber
     });
@@ -859,7 +865,7 @@ io.on('connection', (socket) => {
 // ─────────────────────────────────────────────────────────────────────────────
 //  SPA CATCH-ALL — must come AFTER all /api routes
 // ─────────────────────────────────────────────────────────────────────────────
-app.get('*', (req, res, next) => {
+app.get('/{*path}', (req, res, next) => {
   if (req.path.startsWith('/api') || req.path.startsWith('/socket.io')) return next();
   const indexPath = path.join(__dirname, 'dist', 'index.html');
   if (fs.existsSync(indexPath)) {
