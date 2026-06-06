@@ -12,13 +12,12 @@ import pino from 'pino';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import nodemailer from 'nodemailer';
 import admin from 'firebase-admin';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// ── Firebase Admin ────────────────────────────────────────────────────────────
+// ── Firebase Admin (Google Sign-In verification) ──────────────────────────────
 admin.initializeApp({
   projectId: process.env.FIREBASE_PROJECT_ID || 'client-log-1c2f5'
 });
@@ -35,36 +34,17 @@ const io = new Server(httpServer, {
 const PORT = process.env.PORT || 5000;
 const JWT_SECRET = process.env.JWT_SECRET || 'cleara-super-secret-key-138402';
 
-// ── Gmail OTP (Free via Nodemailer) ───────────────────────────────────────────
-const GMAIL_USER = process.env.GMAIL_USER;
-const GMAIL_PASS = process.env.GMAIL_APP_PASSWORD;
-const gmailReady = GMAIL_USER && GMAIL_PASS
-  && !GMAIL_USER.includes('yourname')
-  && !GMAIL_PASS.includes('xxxx');
-
-let gmailTransporter = null;
-if (gmailReady) {
-  gmailTransporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: { user: GMAIL_USER, pass: GMAIL_PASS }
-  });
-  console.log(`[GMAIL] ✅ Email OTP ready — ${GMAIL_USER}`);
-} else {
-  console.warn('[GMAIL] ⚠️  Gmail not configured. Add GMAIL_USER + GMAIL_APP_PASSWORD to .env');
-}
-
 app.use(cors({ origin: true, credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
 // ── Static files — serve React build ─────────────────────────────────────────
-// On Render, __dirname is the project root where dist/ lives
 const distPath = path.join(__dirname, 'dist');
 if (fs.existsSync(distPath)) {
   app.use(express.static(distPath));
   console.log(`[STATIC] Serving frontend from ${distPath}`);
 } else {
-  console.warn(`[STATIC] ⚠️  dist/ folder not found at ${distPath}. Run "npm run build" first.`);
+  console.warn(`[STATIC] ⚠️  dist/ not found. Run "npm run build" first.`);
 }
 
 // ── Marketing Template ────────────────────────────────────────────────────────
@@ -105,7 +85,6 @@ let stats = {
   leadsQueue: [],
   currentLeadIndex: 0,
   scraping: false,
-  scrapingProgress: 0,
   hourlyHistory: [0, 0, 0, 0, 0, 0],
   whatsappConnected: false,
   whatsappNumber: null
@@ -155,7 +134,6 @@ async function getOllamaReply(userMessage, name) {
 // ── WhatsApp (Baileys) ────────────────────────────────────────────────────────
 async function startWhatsAppConnection() {
   if (sock) return;
-
   try {
     const authDir = path.join(__dirname, 'cleara_baileys_auth');
     const { state, saveCreds } = await useMultiFileAuthState(authDir);
@@ -186,7 +164,6 @@ async function startWhatsAppConnection() {
         io.emit('whatsapp_state', { connected: true, number: stats.whatsappNumber });
         io.emit('whatsapp_connected', { number: stats.whatsappNumber });
         console.log(`[WA] ✅ Connected: ${stats.whatsappNumber}`);
-
         if (stats.campaignStatus === 'Running' && stats.leadsQueue.length > 0 && !campaignTimer) {
           scheduleNextCampaignTick();
         }
@@ -196,24 +173,22 @@ async function startWhatsAppConnection() {
         const statusCode = lastDisconnect?.error?.output?.statusCode;
         const shouldReconnect = statusCode !== DisconnectReason.loggedOut;
         console.log(`[WA] Connection closed. Reconnect: ${shouldReconnect}`);
-
         stats.whatsappConnected = false;
         stats.whatsappNumber = null;
         io.emit('whatsapp_disconnected');
         sock = null;
-
         if (shouldReconnect) {
           startWhatsAppConnection();
         } else {
           lastQrCode = null;
-          try { fs.rmSync(authDir, { recursive: true, force: true }); } catch (e) { }
+          const authDir = path.join(__dirname, 'cleara_baileys_auth');
+          try { fs.rmSync(authDir, { recursive: true, force: true }); } catch { }
         }
       }
     });
 
     sock.ev.on('creds.update', saveCreds);
 
-    // Incoming message handler — AI auto-reply
     sock.ev.on('messages.upsert', async (m) => {
       if (m.type !== 'notify') return;
       for (const msg of m.messages) {
@@ -221,14 +196,11 @@ async function startWhatsAppConnection() {
         const fromJid = msg.key.remoteJid;
         const text = msg.message.conversation || msg.message.extendedTextMessage?.text;
         if (!text) continue;
-
         const phone = fromJid.split('@')[0];
         const leadIndex = stats.leadsQueue.findIndex(l => l && l.phone.replace(/\D/g, '').endsWith(phone));
         const senderName = leadIndex !== -1 ? stats.leadsQueue[leadIndex].name : 'Customer';
-
         io.emit('new_incoming_reply', { name: senderName, message: text });
         stats.repliesReceivedCount++;
-
         const aiReply = await getOllamaReply(text, senderName);
         try {
           await sock.sendMessage(fromJid, { text: aiReply });
@@ -246,7 +218,6 @@ async function startWhatsAppConnection() {
 function scheduleNextCampaignTick() {
   if (campaignTimer) clearTimeout(campaignTimer);
   if (stats.campaignStatus !== 'Running') return;
-
   const interval = speedIntervals[stats.speedLevel] || 3000;
   campaignTimer = setTimeout(async () => {
     await sendNextCampaignMessage();
@@ -280,17 +251,16 @@ async function sendNextCampaignMessage() {
         status = 'Skipped';
       } else {
         const jid = '91' + digits + '@s.whatsapp.net';
-
         let isOnWA = false;
         try {
-          const waCheckPromise = sock.onWhatsApp(jid);
-          const timeoutPromise = new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 4000));
-          const [waResult] = await Promise.race([waCheckPromise, timeoutPromise]);
+          const [waResult] = await Promise.race([
+            sock.onWhatsApp(jid),
+            new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 4000))
+          ]);
           isOnWA = waResult?.exists === true;
         } catch {
-          isOnWA = true; // on timeout/error, attempt send anyway
+          isOnWA = true;
         }
-
         if (!isOnWA) {
           status = 'Not on WA';
           stats.notOnWaCount++;
@@ -303,8 +273,6 @@ async function sendNextCampaignMessage() {
       status = 'Failed';
       console.error(`[CAMPAIGN] ❌ Failed for ${lead.phone}:`, err.message);
     }
-  } else {
-    status = 'Failed';
   }
 
   const log = {
@@ -314,7 +282,6 @@ async function sendNextCampaignMessage() {
     phone: lead.phone,
     status
   };
-
   messageLogs.unshift(log);
   if (messageLogs.length > 50) messageLogs.pop();
 
@@ -335,18 +302,8 @@ async function sendNextCampaignMessage() {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  AUTH ROUTES
+//  AUTH ROUTES — Google Sign-In only
 // ─────────────────────────────────────────────────────────────────────────────
-let currentOtps = {};
-
-async function waitForWhatsAppReady(maxMs = 3000) {
-  const start = Date.now();
-  while (Date.now() - start < maxMs) {
-    if (sock && stats.whatsappConnected && sock.user) return true;
-    await new Promise(r => setTimeout(r, 300));
-  }
-  return false;
-}
 
 // GET /api/auth/session
 app.get('/api/auth/session', (req, res) => {
@@ -356,7 +313,6 @@ app.get('/api/auth/session', (req, res) => {
     const verified = jwt.verify(token, JWT_SECRET);
     res.json({
       authenticated: true,
-      phone: verified.phone || null,
       email: verified.email || null,
       state: stats,
       logPreview: messageLogs.slice(0, 10)
@@ -366,109 +322,39 @@ app.get('/api/auth/session', (req, res) => {
   }
 });
 
-// POST /api/auth/otp/send  —  WhatsApp first, Gmail fallback
-app.post('/api/auth/otp/send', async (req, res) => {
-  const { phone, email } = req.body;
-  if (!phone && !email) return res.status(400).json({ success: false, error: 'Phone or Email required' });
-
-  const target = email || phone;
-  const isEmail = !!email;
-  const generatedOtp = String(Math.floor(100000 + Math.random() * 900000));
-  currentOtps[target] = generatedOtp;
-
-  console.log(`\n[OTP] Generated for ${target}: ${generatedOtp}\n`);
-
-  // ── Email path ────────────────────────────────────────────────────────────
-  if (isEmail) {
-    if (gmailReady && gmailTransporter) {
-      try {
-        await gmailTransporter.sendMail({
-          from: `"Cleara Security" <${GMAIL_USER}>`,
-          to: email,
-          subject: '🔐 Your Cleara Verification Code',
-          html: `
-            <div style="font-family:system-ui,sans-serif;max-width:480px;margin:0 auto;padding:28px;background:#fff;border:1px solid #e2e8f0;border-radius:16px;">
-              <h2 style="color:#0f172a;margin-top:0;">Cleara — Verify Your Identity</h2>
-              <p style="color:#475569;font-size:14px;">Your verification code (valid 10 minutes):</p>
-              <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:16px;text-align:center;margin:20px 0;">
-                <span style="font-size:32px;font-weight:800;letter-spacing:6px;color:#1A7A4A;">${generatedOtp}</span>
-              </div>
-              <p style="color:#94a3b8;font-size:12px;">If you did not request this, ignore this email.</p>
-              <p style="color:#64748b;font-size:12px;text-align:center;">© 2026 Cleara Brand, Hyderabad</p>
-            </div>`
-        });
-        return res.json({ success: true, channel: 'email' });
-      } catch (err) {
-        console.error('[OTP] Gmail send failed:', err.message);
-        return res.json({ success: true, channel: 'email-console', warning: 'Gmail failed. OTP logged to terminal.' });
-      }
-    }
-    return res.json({ success: true, channel: 'email-console', warning: 'Gmail not configured. OTP logged to terminal.' });
-  }
-
-  // ── Phone path: WhatsApp ──────────────────────────────────────────────────
-  const waReady = await waitForWhatsAppReady(3000);
-  if (waReady) {
-    try {
-      let jid = phone.replace(/\D/g, '');
-      if (!jid.startsWith('91') && jid.length === 10) jid = '91' + jid;
-      jid += '@s.whatsapp.net';
-
-      await sock.sendMessage(jid, {
-        text: `🔐 *Cleara Login OTP*\n\nYour verification code is: *${generatedOtp}*\n\nValid for 10 minutes. Do not share.\n— Cleara Brand, Hyderabad`
-      });
-      console.log(`[OTP] ✅ Sent via WhatsApp to ${phone}`);
-      return res.json({ success: true, channel: 'whatsapp' });
-    } catch (err) {
-      console.warn('[OTP] WhatsApp send failed:', err.message);
-    }
-  }
-
-  // WhatsApp unavailable — OTP only in terminal
-  console.warn(`[OTP] ⚠️ WhatsApp unavailable. OTP for ${phone}: ${generatedOtp}`);
-  return res.json({
-    success: true,
-    channel: 'console',
-    warning: 'WhatsApp is not connected. OTP has been printed to the server terminal. Ask admin for the code.'
-  });
-});
-
-// POST /api/auth/otp/verify
-app.post('/api/auth/otp/verify', (req, res) => {
-  const { phone, email, otp } = req.body;
-  if ((!phone && !email) || !otp) return res.status(400).json({ error: 'Identity and OTP required' });
-
-  const target = email || phone;
-  if (currentOtps[target] && otp === currentOtps[target]) {
-    delete currentOtps[target];
-    const token = jwt.sign(email ? { email } : { phone }, JWT_SECRET, { expiresIn: '7d' });
-    res.cookie('token', token, { httpOnly: true, secure: false, sameSite: 'lax', maxAge: 7 * 24 * 60 * 60 * 1000 });
-    return res.json({ success: true, whatsappConnected: stats.whatsappConnected, whatsappNumber: stats.whatsappNumber });
-  }
-  res.status(400).json({ error: 'Incorrect OTP. Please check your WhatsApp or email and try again.' });
-});
-
-// POST /api/auth/firebase  (also handles Google Sign-In)
-const handleFirebaseLogin = async (req, res) => {
+// POST /api/auth/google  — verify Firebase Google ID token, issue JWT cookie
+app.post('/api/auth/google', async (req, res) => {
   const { idToken } = req.body;
   if (!idToken) return res.status(400).json({ success: false, error: 'ID Token required' });
   try {
     const decoded = await admin.auth().verifyIdToken(idToken);
     const email = decoded.email || null;
-    const phone = decoded.phone_number || null;
-    if (!email && !phone) return res.status(400).json({ success: false, error: 'Identity not found in token' });
+    if (!email) return res.status(400).json({ success: false, error: 'Google account has no email' });
 
-    const token = jwt.sign(email ? { email } : { phone }, JWT_SECRET, { expiresIn: '7d' });
-    res.cookie('token', token, { httpOnly: true, secure: false, sameSite: 'lax', maxAge: 7 * 24 * 60 * 60 * 1000 });
-    res.json({ success: true, email, phone, whatsappConnected: stats.whatsappConnected, whatsappNumber: stats.whatsappNumber });
+    const token = jwt.sign({ email }, JWT_SECRET, { expiresIn: '7d' });
+    res.cookie('token', token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'lax',
+      maxAge: 7 * 24 * 60 * 60 * 1000
+    });
+    res.json({
+      success: true,
+      email,
+      whatsappConnected: stats.whatsappConnected,
+      whatsappNumber: stats.whatsappNumber
+    });
   } catch (err) {
-    console.error('[FIREBASE] Token verification failed:', err.message);
-    res.status(401).json({ success: false, error: 'Firebase authentication failed: ' + err.message });
+    console.error('[GOOGLE AUTH] Token verification failed:', err.message);
+    res.status(401).json({ success: false, error: 'Google authentication failed: ' + err.message });
   }
-};
+});
 
-app.post('/api/auth/firebase', handleFirebaseLogin);
-app.post('/api/auth/google', handleFirebaseLogin);
+// Also accept /api/auth/firebase as alias (in case frontend still calls it)
+app.post('/api/auth/firebase', async (req, res) => {
+  req.url = '/api/auth/google';
+  app._router.handle(req, res);
+});
 
 // POST /api/auth/logout
 app.post('/api/auth/logout', (req, res) => {
@@ -501,16 +387,13 @@ app.post('/api/qr/disconnect', async (req, res) => {
   stats.whatsappConnected = false;
   stats.whatsappNumber = null;
   lastQrCode = null;
-
   if (sock) {
     try { await sock.logout(); } catch { }
     try { sock.end(); } catch { }
     sock = null;
   }
-
   const authDir = path.join(__dirname, 'cleara_baileys_auth');
   try { fs.rmSync(authDir, { recursive: true, force: true }); } catch { }
-
   io.emit('whatsapp_disconnected');
   res.json({ success: true });
 });
@@ -619,10 +502,8 @@ function extractPhoneNamePairs(html, fallbackTitle, fallbackDomain) {
       let t = (fallbackTitle || '').split(/[|\-–:]/)[0].trim().replace(/^www\./i, '').replace(/\.(com|in|co\.in|net|org|biz)$/i, '').trim();
       finalName = (t && t.length >= 3) ? t : (fallbackDomain || 'Business');
     }
-
     pairs.push({ phone: formatted, name: finalName });
   }
-
   return pairs;
 }
 
@@ -651,11 +532,9 @@ async function fetchFromDDGLite(query) {
       },
       body: `q=${encodeURIComponent(query)}`
     }, 8000);
-
     if (response.status !== 200) return [];
     const html = await response.text();
     if (html.includes('captcha') || html.includes('challenge-form')) return [];
-
     const re = /href="([^"]+?)"/g;
     let m;
     const links = [];
@@ -678,7 +557,6 @@ async function crawlPage(url) {
       headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }
     });
     if (res.status !== 200) return { title: '', phoneNamePairs: [] };
-
     const html = await res.text();
     const titleMatch = html.match(/<title>([\s\S]*?)<\/title>/i);
     const domain = new URL(url).hostname.replace(/^www\./, '');
@@ -736,17 +614,21 @@ app.post('/api/scrape', (req, res) => {
       const indiaKeyword = keyword.includes('India') ? keyword : `${keyword} India`;
       const isAggregator = /yahoo\.com|yimg\.com|google\.|youtube\.|facebook\.|twitter\.|instagram\.|linkedin\.|wikipedia\.|justdial\.|indiamart\.|tradeindia\./i;
 
-      let sources = { 'Yahoo Search': { count: 0, status: 'Searching...' }, 'DuckDuckGo Search': { count: 0, status: 'Searching...' }, 'Deep Crawl': { count: 0, status: 'Standby' } };
+      let sources = {
+        'Yahoo Search': { count: 0, status: 'Searching...' },
+        'DuckDuckGo Search': { count: 0, status: 'Searching...' },
+        'Deep Crawl': { count: 0, status: 'Standby' }
+      };
       io.emit('scraper_progress', { progress: 10, leadsCount: 0, sources });
 
-      // Yahoo
       const yahooSearchPromise = (async () => {
         const offsets = [1, 11, 21, 31];
         const pages = await Promise.all(offsets.map(async (offset) => {
           try {
-            const resp = await fetchWithTimeout(`https://search.yahoo.com/search?p=${encodeURIComponent(indiaKeyword)}&b=${offset}&fr=yfp-t`, {
-              headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Language': 'en-IN,en;q=0.9' }
-            });
+            const resp = await fetchWithTimeout(
+              `https://search.yahoo.com/search?p=${encodeURIComponent(indiaKeyword)}&b=${offset}&fr=yfp-t`,
+              { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Language': 'en-IN,en;q=0.9' } }
+            );
             return resp.status === 200 ? await resp.text() : '';
           } catch { return ''; }
         }));
@@ -760,7 +642,7 @@ app.post('/api/scrape', (req, res) => {
             if (ruMatch) {
               try {
                 const decoded = decodeURIComponent(ruMatch[1]);
-                if ((decoded.startsWith('http://') || decoded.startsWith('https://'))) {
+                if (decoded.startsWith('http://') || decoded.startsWith('https://')) {
                   const domain = new URL(decoded).hostname.toLowerCase();
                   if (!isAggregator.test(domain)) urls.push({ url: decoded, domain, engine: 'Yahoo Search' });
                 }
@@ -771,10 +653,11 @@ app.post('/api/scrape', (req, res) => {
         return urls;
       })();
 
-      // DDG
       const ddgSearchPromise = (async () => {
         const results = await fetchFromDDGLite(indiaKeyword);
-        return results.filter(s => !isAggregator.test(s.domain)).map(s => ({ url: s.url, domain: s.domain, engine: 'DuckDuckGo Search' }));
+        return results
+          .filter(s => !isAggregator.test(s.domain))
+          .map(s => ({ url: s.url, domain: s.domain, engine: 'DuckDuckGo Search' }));
       })();
 
       const [yahooUrls, ddgUrls] = await Promise.all([yahooSearchPromise, ddgSearchPromise]);
@@ -805,29 +688,33 @@ app.post('/api/scrape', (req, res) => {
           const nameLower = (name || '').toLowerCase();
           const isExcluded = excludeKeywords.some(kw => nameLower.includes(kw) || site.url.toLowerCase().includes(kw));
           if (!isExcluded) {
-            resultsMap.set(phone, { name, phone, city, source: isDeepCrawl ? 'Deep Crawl' : (siteEngines.get(site.domain) || 'Search') });
+            resultsMap.set(phone, {
+              name, phone, city,
+              source: isDeepCrawl ? 'Deep Crawl' : (siteEngines.get(site.domain) || 'Search')
+            });
           }
         });
       }
 
       const queue = [...uniqueUrlsToCrawl];
-      const maxConcurrency = 5;
-
       async function next() {
         if (queue.length === 0) return;
         const site = queue.shift();
         try { await crawlAndSave(site); } catch { }
         io.emit('scraper_progress', {
-          progress: Math.min(99, 30 + Math.round(((uniqueUrlsToCrawl.length - queue.length) / uniqueUrlsToCrawl.length) * 70)),
+          progress: Math.min(99, 30 + Math.round(((uniqueUrlsToCrawl.length - queue.length) / (uniqueUrlsToCrawl.length || 1)) * 70)),
           leadsCount: resultsMap.size,
           sources
         });
         await next();
       }
 
-      await Promise.all(Array.from({ length: Math.min(maxConcurrency, queue.length) }, next));
+      await Promise.all(Array.from({ length: Math.min(5, queue.length || 1) }, next));
 
-      scrapedLeads = Array.from(resultsMap.values()).map((lead, i) => ({ id: `L${String(i + 1).padStart(3, '0')}`, ...lead }));
+      scrapedLeads = Array.from(resultsMap.values()).map((lead, i) => ({
+        id: `L${String(i + 1).padStart(3, '0')}`,
+        ...lead
+      }));
       stats.leadsScrapedCount = scrapedLeads.length;
       stats.scraping = false;
 
@@ -847,7 +734,6 @@ app.post('/api/scrape', (req, res) => {
 app.post('/api/leads/import', (req, res) => {
   const { leads } = req.body;
   if (!leads || !Array.isArray(leads) || leads.length === 0) return res.status(400).json({ error: 'No leads provided' });
-
   const seen = new Set();
   scrapedLeads = leads.filter(lead => {
     const phone = String(lead.phone || '').replace(/\D/g, '');
@@ -861,7 +747,6 @@ app.post('/api/leads/import', (req, res) => {
     city: String(lead.city || 'India').trim(),
     source: String(lead.source || 'CSV Import').trim()
   }));
-
   stats.leadsScrapedCount = scrapedLeads.length;
   io.emit('scraper_done', { validLeads: scrapedLeads.length, duplicatesRemoved: leads.length - scrapedLeads.length, leadsPreview: scrapedLeads });
   res.json({ success: true, count: scrapedLeads.length });
@@ -972,8 +857,7 @@ io.on('connection', (socket) => {
 });
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  SPA CATCH-ALL  —  must come AFTER all /api routes
-//  This is what fixes the blank page on Render
+//  SPA CATCH-ALL — must come AFTER all /api routes
 // ─────────────────────────────────────────────────────────────────────────────
 app.get('*', (req, res, next) => {
   if (req.path.startsWith('/api') || req.path.startsWith('/socket.io')) return next();
