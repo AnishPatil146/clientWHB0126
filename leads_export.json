@@ -1,0 +1,1409 @@
+[
+  {
+    "id": 1,
+    "company_name": "Apex Industrial Chemical Supply",
+    "website": "https://www.apexindustrialchem.com",
+    "email": "sales@apexindustrialchem.com",
+    "phone": "(800) 555-0143",
+    "address": "1400 Industrial Parkway",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "description": "B2B wholesale distributor of industrial degreasers, solvents, and commercial cleaning chemicals. We supply hardware stores and janitorial services.",
+    "products_focus": "Industrial degreasers, solvents, cleaning chemicals, bleach, detergents",
+    "distributor_type": "Wholesale Distributor & B2B Supplier",
+    "source_url": "https://www.thomasnet.com/profile/30114092/apex-industrial-chemical-supply.html",
+    "confidence_score": 97,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:28:26.791Z",
+    "notes": "Premium commercial cleaning chemical distributor.",
+    "messages": [
+      {
+        "id": 1,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Apex Industrial Chemical Supply",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Apex Industrial Chemical Supply while researching leading B2B hardware and chemical distributors in the Chicago, IL area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Chicago, IL, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 2,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Apex Industrial Chemical Supply",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Apex Industrial Chemical Supply.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Chicago, IL, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 3,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Apex Industrial Chemical Supply is a leading B2B hardware distributor in Chicago, IL. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 4,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Apex Industrial Chemical Supply in Chicago, IL and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:28:26.791Z"
+      },
+      {
+        "id": 5,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Apex Industrial Chemical Supply in Chicago, IL. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "company_name": "Buckeye Janitorial & Sanitation Solutions",
+    "website": "https://www.buckeyejansan.com",
+    "email": "info@buckeyejansan.com",
+    "phone": "(614) 555-0198",
+    "address": "820 Sanitation Way",
+    "city": "Columbus",
+    "state": "OH",
+    "country": "USA",
+    "description": "Commercial trade supplier specializing in janitorial & sanitation supplies, floor care facility maintenance products, and bulk disinfectants.",
+    "products_focus": "Janitorial supplies, sanitation, floor care, facility maintenance, disinfectants, sanitizers",
+    "distributor_type": "Commercial Trade Supplier",
+    "source_url": "https://www.manta.com/c/mx89f2z/buckeye-janitorial-sanitation-solutions",
+    "confidence_score": 73,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:28:34.204Z",
+    "notes": "Highly relevant B2B supplier.",
+    "messages": [
+      {
+        "id": 6,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Buckeye Janitorial & Sanitation Solutions",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Buckeye Janitorial & Sanitation Solutions while researching leading B2B hardware and chemical distributors in the Columbus, OH area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Columbus, OH, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 7,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Buckeye Janitorial & Sanitation Solutions",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Buckeye Janitorial & Sanitation Solutions.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Columbus, OH, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 8,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Buckeye Janitorial & Sanitation Solutions is a leading B2B hardware distributor in Columbus, OH. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 9,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Buckeye Janitorial & Sanitation Solutions in Columbus, OH and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:28:34.204Z"
+      },
+      {
+        "id": 10,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Buckeye Janitorial & Sanitation Solutions in Columbus, OH. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "company_name": "Metro Facility Hygiene Distributors",
+    "website": "https://www.metrofacilityhygiene.com",
+    "email": "contact@metrofacilityhygiene.com",
+    "phone": "(212) 555-0112",
+    "address": "450 7th Ave",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "description": "Local commercial listing for hardware facility maintenance products, cleaning chemicals, and hygiene products. Bulk supply and wholesale distributor.",
+    "products_focus": "Facility maintenance, cleaning chemicals, hygiene, sanitizers, disinfectants",
+    "distributor_type": "Local Commercial Distributor",
+    "source_url": "https://www.yellowpages.com/new-york-ny/mip/metro-facility-hygiene-distributors-54891102",
+    "confidence_score": 85,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:28:41.089Z",
+    "notes": "Excellent city coverage.",
+    "messages": [
+      {
+        "id": 11,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Metro Facility Hygiene Distributors",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Metro Facility Hygiene Distributors while researching leading B2B hardware and chemical distributors in the New York, NY area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in New York, NY, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 12,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Metro Facility Hygiene Distributors",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Metro Facility Hygiene Distributors.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in New York, NY, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 13,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Metro Facility Hygiene Distributors is a leading B2B hardware distributor in New York, NY. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 14,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Metro Facility Hygiene Distributors in New York, NY and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:28:41.089Z"
+      },
+      {
+        "id": 15,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Metro Facility Hygiene Distributors in New York, NY. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "company_name": "Global Solvent & Degreaser Corp",
+    "website": "https://www.globalsolventcorp.com",
+    "email": "operations@globalsolventcorp.com",
+    "phone": "(713) 555-0182",
+    "address": "1020 Port of Houston Blvd",
+    "city": "Houston",
+    "state": "TX",
+    "country": "USA",
+    "description": "Industrial B2B supplier of industrial degreasers, chemical solvents, and commercial detergents. Large bulk wholesale distributor for trade.",
+    "products_focus": "Solvents, degreasers, chemical detergents, cleaning supplies",
+    "distributor_type": "B2B Industrial Supplier",
+    "source_url": "https://us.kompass.com/c/global-solvent-degreaser-corp/us748291/",
+    "confidence_score": 83,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:28:51.149Z",
+    "notes": "Focus on high-volume industrial solvents.",
+    "messages": [
+      {
+        "id": 16,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Global Solvent & Degreaser Corp",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Global Solvent & Degreaser Corp while researching leading B2B hardware and chemical distributors in the Houston, TX area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Houston, TX, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 17,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Global Solvent & Degreaser Corp",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Global Solvent & Degreaser Corp.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Houston, TX, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 18,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Global Solvent & Degreaser Corp is a leading B2B hardware distributor in Houston, TX. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 19,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Global Solvent & Degreaser Corp in Houston, TX and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:28:51.149Z"
+      },
+      {
+        "id": 20,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Global Solvent & Degreaser Corp in Houston, TX. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "company_name": "Midwest Hardware Supply",
+    "website": "https://www.midwesthardwaresupply.com",
+    "email": "sales@midwesthardwaresupply.com",
+    "phone": "(312) 555-0234",
+    "address": "500 N Michigan Ave",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "description": "B2B hardware supply distributor. We carry general hardware items, trade tools, and basic cleaning supplies.",
+    "products_focus": "Hardware, tools, cleaning supplies",
+    "distributor_type": "B2B Hardware Distributor",
+    "source_url": "https://www.thomasnet.com/profile/10293845/midwest-hardware-supply.html",
+    "confidence_score": 37,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:29:00.491Z",
+    "notes": "Generalist but includes cleaning supplies.",
+    "messages": [
+      {
+        "id": 21,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Midwest Hardware Supply",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Midwest Hardware Supply while researching leading B2B hardware and chemical distributors in the Chicago, IL area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Chicago, IL, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 22,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Midwest Hardware Supply",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Midwest Hardware Supply.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Chicago, IL, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 23,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Midwest Hardware Supply is a leading B2B hardware distributor in Chicago, IL. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 24,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Midwest Hardware Supply in Chicago, IL and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:29:00.491Z"
+      },
+      {
+        "id": 25,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Midwest Hardware Supply in Chicago, IL. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "company_name": "Pacific Coast Cleaning Supplies",
+    "website": "https://www.pacificcleaningsupplies.com",
+    "email": "info@pacificcleaningsupplies.com",
+    "phone": "(206) 555-0177",
+    "address": "1200 Westlake Ave N",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "description": "Wholesale cleaning supplies. Retail and commercial distribution of cleaning detergents and floor care products.",
+    "products_focus": "Cleaning detergents, floor care products",
+    "distributor_type": "Wholesale Cleaning Supplier",
+    "source_url": "https://www.manta.com/c/pc8842/pacific-coast-cleaning-supplies",
+    "confidence_score": 39,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:29:09.294Z",
+    "notes": "Strong regional footprint in WA.",
+    "messages": [
+      {
+        "id": 26,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Pacific Coast Cleaning Supplies",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Pacific Coast Cleaning Supplies while researching leading B2B hardware and chemical distributors in the Seattle, WA area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Seattle, WA, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 27,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Pacific Coast Cleaning Supplies",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Pacific Coast Cleaning Supplies.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Seattle, WA, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 28,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Pacific Coast Cleaning Supplies is a leading B2B hardware distributor in Seattle, WA. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 29,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Pacific Coast Cleaning Supplies in Seattle, WA and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:29:09.294Z"
+      },
+      {
+        "id": 30,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Pacific Coast Cleaning Supplies in Seattle, WA. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "company_name": "Tri-State Chemical Distributors",
+    "website": "https://www.tristatechem.com",
+    "email": "sales@tristatechem.com",
+    "phone": "(215) 555-0122",
+    "address": "800 JFK Blvd",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "description": "Industrial chemical distributors supplying bulk bleach, industrial degreasers, and commercial solvents to trade clients.",
+    "products_focus": "Chemicals, bleach, degreasers, solvents",
+    "distributor_type": "Industrial Chemical Distributor",
+    "source_url": "https://www.yellowpages.com/philadelphia-pa/mip/tri-state-chemical-distributors-9823412",
+    "confidence_score": 64,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:29:15.452Z",
+    "notes": "Tri-state coverage (PA/NJ/DE).",
+    "messages": [
+      {
+        "id": 31,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Tri-State Chemical Distributors",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Tri-State Chemical Distributors while researching leading B2B hardware and chemical distributors in the Philadelphia, PA area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Philadelphia, PA, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 32,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Tri-State Chemical Distributors",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Tri-State Chemical Distributors.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Philadelphia, PA, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 33,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Tri-State Chemical Distributors is a leading B2B hardware distributor in Philadelphia, PA. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 34,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Tri-State Chemical Distributors in Philadelphia, PA and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:29:15.452Z"
+      },
+      {
+        "id": 35,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Tri-State Chemical Distributors in Philadelphia, PA. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "company_name": "Sanitation Products B2B LLC",
+    "website": "https://www.sanitationproductsb2b.com",
+    "email": "contact@sanitationproductsb2b.com",
+    "phone": "(305) 555-0199",
+    "address": "1500 Biscayne Blvd",
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "description": "B2B supplier of commercial disinfectants, sanitizers, and janitorial supplies. We provide bulk maintenance products to facilities.",
+    "products_focus": "Disinfectants, sanitizers, janitorial supplies, maintenance products",
+    "distributor_type": "B2B Sanitation Supplier",
+    "source_url": "https://us.kompass.com/c/sanitation-products-b2b-llc/us481903/",
+    "confidence_score": 59,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:29:23.259Z",
+    "notes": "High concentration of sanitizers.",
+    "messages": [
+      {
+        "id": 36,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Sanitation Products B2B LLC",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Sanitation Products B2B LLC while researching leading B2B hardware and chemical distributors in the Miami, FL area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Miami, FL, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 37,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Sanitation Products B2B LLC",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Sanitation Products B2B LLC.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Miami, FL, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 38,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Sanitation Products B2B LLC is a leading B2B hardware distributor in Miami, FL. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 39,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Sanitation Products B2B LLC in Miami, FL and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:29:23.259Z"
+      },
+      {
+        "id": 40,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Sanitation Products B2B LLC in Miami, FL. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "company_name": "Southern Degreaser & Solvent Supply",
+    "website": "https://www.southerndegreaser.com",
+    "email": "sales@southerndegreaser.com",
+    "phone": "(404) 555-0154",
+    "address": "200 Peachtree St",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "description": "Wholesale distributor specializing in industrial degreasers, chemical solvents, and facility hygiene products.",
+    "products_focus": "Degreasers, solvents, chemical supplies, hygiene products",
+    "distributor_type": "Wholesale Solvent Distributor",
+    "source_url": "https://www.thomasnet.com/profile/40392812/southern-degreaser-solvent-supply.html",
+    "confidence_score": 59,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:29:29.506Z",
+    "notes": "Serves SE region.",
+    "messages": [
+      {
+        "id": 41,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Southern Degreaser & Solvent Supply",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Southern Degreaser & Solvent Supply while researching leading B2B hardware and chemical distributors in the Atlanta, GA area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Atlanta, GA, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 42,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Southern Degreaser & Solvent Supply",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Southern Degreaser & Solvent Supply.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Atlanta, GA, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 43,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Southern Degreaser & Solvent Supply is a leading B2B hardware distributor in Atlanta, GA. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 44,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Southern Degreaser & Solvent Supply in Atlanta, GA and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:29:29.506Z"
+      },
+      {
+        "id": 45,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Southern Degreaser & Solvent Supply in Atlanta, GA. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "company_name": "Lone Star Sanitation & Supply",
+    "website": "https://www.lonestarsanitation.com",
+    "email": "info@lonestarsanitation.com",
+    "phone": "(512) 555-0144",
+    "address": "600 Congress Ave",
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "description": "Commercial distributor of janitorial & sanitation supplies. We stock disinfectants, sanitizers, and detergents in bulk.",
+    "products_focus": "Janitorial supplies, sanitation, disinfectants, sanitizers, detergents",
+    "distributor_type": "Commercial Sanitation Distributor",
+    "source_url": "https://www.manta.com/c/ls77321/lone-star-sanitation-supply",
+    "confidence_score": 59,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:29:36.900Z",
+    "notes": "Large Texas B2B client base.",
+    "messages": [
+      {
+        "id": 46,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Lone Star Sanitation & Supply",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Lone Star Sanitation & Supply while researching leading B2B hardware and chemical distributors in the Austin, TX area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Austin, TX, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 47,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Lone Star Sanitation & Supply",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Lone Star Sanitation & Supply.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Austin, TX, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 48,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Lone Star Sanitation & Supply is a leading B2B hardware distributor in Austin, TX. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 49,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Lone Star Sanitation & Supply in Austin, TX and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:29:36.900Z"
+      },
+      {
+        "id": 50,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Lone Star Sanitation & Supply in Austin, TX. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "company_name": "Rocky Mountain Hygiene Distributors",
+    "website": "https://www.rockymountainhygiene.com",
+    "email": "sales@rockymountainhygiene.com",
+    "phone": "(303) 555-0165",
+    "address": "1700 Broadway",
+    "city": "Denver",
+    "state": "CO",
+    "country": "USA",
+    "description": "Bulk distributor of facility hygiene, floor care, and commercial cleaning chemicals. Trade B2B supplier.",
+    "products_focus": "Hygiene, floor care, cleaning chemicals",
+    "distributor_type": "Bulk Hygiene Distributor",
+    "source_url": "https://www.yellowpages.com/denver-co/mip/rocky-mountain-hygiene-distributors-1029384",
+    "confidence_score": 71,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:29:44.102Z",
+    "notes": "High elevation warehouse service.",
+    "messages": [
+      {
+        "id": 51,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Rocky Mountain Hygiene Distributors",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Rocky Mountain Hygiene Distributors while researching leading B2B hardware and chemical distributors in the Denver, CO area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Denver, CO, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 52,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Rocky Mountain Hygiene Distributors",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Rocky Mountain Hygiene Distributors.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Denver, CO, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 53,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Rocky Mountain Hygiene Distributors is a leading B2B hardware distributor in Denver, CO. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 54,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Rocky Mountain Hygiene Distributors in Denver, CO and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:29:44.102Z"
+      },
+      {
+        "id": 55,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Rocky Mountain Hygiene Distributors in Denver, CO. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "company_name": "New England Janitorial Supply Co",
+    "website": "https://www.nejanitorial.com",
+    "email": "orders@nejanitorial.com",
+    "phone": "(617) 555-0133",
+    "address": "100 Federal St",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "description": "B2B wholesale distributor of janitorial & sanitation supplies. We stock commercial cleaning chemicals, disinfectants, and facility maintenance products.",
+    "products_focus": "Janitorial supplies, sanitation, cleaning chemicals, disinfectants, facility maintenance",
+    "distributor_type": "B2B Janitorial Distributor",
+    "source_url": "https://us.kompass.com/c/new-england-janitorial-supply-co/us102938/",
+    "confidence_score": 79,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:29:50.071Z",
+    "notes": "Est. 1994, reliable distributor.",
+    "messages": [
+      {
+        "id": 56,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for New England Janitorial Supply Co",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across New England Janitorial Supply Co while researching leading B2B hardware and chemical distributors in the Boston, MA area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Boston, MA, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 57,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for New England Janitorial Supply Co",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with New England Janitorial Supply Co.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Boston, MA, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 58,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed New England Janitorial Supply Co is a leading B2B hardware distributor in Boston, MA. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 59,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across New England Janitorial Supply Co in Boston, MA and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:29:50.071Z"
+      },
+      {
+        "id": 60,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with New England Janitorial Supply Co in Boston, MA. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "company_name": "Empire Chemical & Solvent Corp",
+    "website": "https://www.empirechem.com",
+    "email": "contact@empirechem.com",
+    "phone": "(201) 555-0188",
+    "address": "100 Plaza Drive",
+    "city": "Secaucus",
+    "state": "NJ",
+    "country": "USA",
+    "description": "Industrial chemical supplier specializing in bulk solvents, industrial degreasers, and facility hygiene disinfectants.",
+    "products_focus": "Chemicals, solvents, degreasers, hygiene, disinfectants",
+    "distributor_type": "Industrial Chemical Supplier",
+    "source_url": "https://www.thomasnet.com/profile/50293847/empire-chemical-solvent-corp.html",
+    "confidence_score": 60,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:29:55.888Z",
+    "notes": "NJ hub warehouse.",
+    "messages": [
+      {
+        "id": 61,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Empire Chemical & Solvent Corp",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Empire Chemical & Solvent Corp while researching leading B2B hardware and chemical distributors in the Secaucus, NJ area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Secaucus, NJ, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 62,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Empire Chemical & Solvent Corp",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Empire Chemical & Solvent Corp.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Secaucus, NJ, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 63,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Empire Chemical & Solvent Corp is a leading B2B hardware distributor in Secaucus, NJ. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 64,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Empire Chemical & Solvent Corp in Secaucus, NJ and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:29:55.888Z"
+      },
+      {
+        "id": 65,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Empire Chemical & Solvent Corp in Secaucus, NJ. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "company_name": "Gulf Coast Facility Supply",
+    "website": "https://www.gulfcoastfacility.com",
+    "email": "info@gulfcoastfacility.com",
+    "phone": "(504) 555-0129",
+    "address": "201 St Charles Ave",
+    "city": "New Orleans",
+    "state": "LA",
+    "country": "USA",
+    "description": "Wholesale commercial supplier of floor care facility maintenance supplies, bleach, sanitizers, and detergents.",
+    "products_focus": "Floor care, facility maintenance, bleach, sanitizers, detergents",
+    "distributor_type": "Wholesale Facility Supplier",
+    "source_url": "https://www.manta.com/c/gc9938/gulf-coast-facility-supply",
+    "confidence_score": 66,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:30:02.960Z",
+    "notes": "Serves the hospitality industry in LA.",
+    "messages": [
+      {
+        "id": 66,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Gulf Coast Facility Supply",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Gulf Coast Facility Supply while researching leading B2B hardware and chemical distributors in the New Orleans, LA area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in New Orleans, LA, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 67,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Gulf Coast Facility Supply",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Gulf Coast Facility Supply.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in New Orleans, LA, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 68,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Gulf Coast Facility Supply is a leading B2B hardware distributor in New Orleans, LA. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 69,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Gulf Coast Facility Supply in New Orleans, LA and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:30:02.960Z"
+      },
+      {
+        "id": 70,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Gulf Coast Facility Supply in New Orleans, LA. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "company_name": "Golden State Janitorial & Chemical Supply",
+    "website": "https://www.goldenstatejanitorial.com",
+    "email": "sales@goldenstatejanitorial.com",
+    "phone": "(213) 555-0145",
+    "address": "555 S Flower St",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "description": "B2B commercial distributor of cleaning chemicals, janitorial products, industrial degreasers, and facility maintenance solvents.",
+    "products_focus": "Cleaning chemicals, janitorial supplies, degreasers, solvents, facility maintenance",
+    "distributor_type": "B2B Commercial Distributor",
+    "source_url": "https://www.yellowpages.com/los-angeles-ca/mip/golden-state-janitorial-chemical-supply-8839281",
+    "confidence_score": 79,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:30:08.966Z",
+    "notes": "California market leader.",
+    "messages": [
+      {
+        "id": 71,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Golden State Janitorial & Chemical Supply",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Golden State Janitorial & Chemical Supply while researching leading B2B hardware and chemical distributors in the Los Angeles, CA area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Los Angeles, CA, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 72,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Golden State Janitorial & Chemical Supply",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Golden State Janitorial & Chemical Supply.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Los Angeles, CA, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 73,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Golden State Janitorial & Chemical Supply is a leading B2B hardware distributor in Los Angeles, CA. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 74,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Golden State Janitorial & Chemical Supply in Los Angeles, CA and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:30:08.966Z"
+      },
+      {
+        "id": 75,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Golden State Janitorial & Chemical Supply in Los Angeles, CA. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "company_name": "Northwest Chemical Distributors",
+    "website": "https://www.nwchemdist.com",
+    "email": "sales@nwchemdist.com",
+    "phone": "(503) 555-0167",
+    "address": "800 SW 5th Ave",
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "description": "Industrial wholesale distributor of commercial cleaning chemicals, solvents, and disinfectants.",
+    "products_focus": "Cleaning chemicals, solvents, disinfectants",
+    "distributor_type": "Industrial Wholesale Distributor",
+    "source_url": "https://us.kompass.com/c/northwest-chemical-distributors/us883921/",
+    "confidence_score": 52,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:30:15.472Z",
+    "notes": "Pacific NW distributor.",
+    "messages": [
+      {
+        "id": 76,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Northwest Chemical Distributors",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Northwest Chemical Distributors while researching leading B2B hardware and chemical distributors in the Portland, OR area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Portland, OR, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 77,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Northwest Chemical Distributors",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Northwest Chemical Distributors.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Portland, OR, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 78,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Northwest Chemical Distributors is a leading B2B hardware distributor in Portland, OR. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 79,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Northwest Chemical Distributors in Portland, OR and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:30:15.472Z"
+      },
+      {
+        "id": 80,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Northwest Chemical Distributors in Portland, OR. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "company_name": "Austin Cleaning & Degreasing Co",
+    "website": "https://www.austincleaningco.com",
+    "email": "info@austincleaningco.com",
+    "phone": "(512) 555-0123",
+    "address": "100 Congress Ave",
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "description": "Local commercial cleaning business offering floor care services.",
+    "products_focus": "Cleaning services, janitorial tools",
+    "distributor_type": "Local Service Provider",
+    "source_url": "https://www.manta.com/c/au9923/austin-cleaning-degreasing-co",
+    "confidence_score": 27,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:30:23.146Z",
+    "notes": "Low score expected (service provider, not bulk distributor).",
+    "messages": [
+      {
+        "id": 81,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Austin Cleaning & Degreasing Co",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Austin Cleaning & Degreasing Co while researching leading B2B hardware and chemical distributors in the Austin, TX area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Austin, TX, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 82,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Austin Cleaning & Degreasing Co",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Austin Cleaning & Degreasing Co.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Austin, TX, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 83,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Austin Cleaning & Degreasing Co is a leading B2B hardware distributor in Austin, TX. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 84,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Austin Cleaning & Degreasing Co in Austin, TX and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:30:23.146Z"
+      },
+      {
+        "id": 85,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Austin Cleaning & Degreasing Co in Austin, TX. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "company_name": "Summit Hardware Distributors",
+    "website": "https://www.summithardware.com",
+    "email": "sales@summithardware.com",
+    "phone": "(800) 555-0921",
+    "address": "400 Summit Blvd",
+    "city": "Denver",
+    "state": "CO",
+    "country": "USA",
+    "description": "Bulk supplier of hardware products and general supplies.",
+    "products_focus": "Fasteners, hand tools, maintenance supplies",
+    "distributor_type": "Industrial Supplier",
+    "source_url": "https://www.thomasnet.com/profile/102938/summit-hardware.html",
+    "confidence_score": 37,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:30:30.140Z",
+    "notes": "Low score expected (general hardware, minimal chemical match).",
+    "messages": [
+      {
+        "id": 86,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Summit Hardware Distributors",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Summit Hardware Distributors while researching leading B2B hardware and chemical distributors in the Denver, CO area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Denver, CO, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 87,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Summit Hardware Distributors",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Summit Hardware Distributors.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Denver, CO, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 88,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Summit Hardware Distributors is a leading B2B hardware distributor in Denver, CO. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 89,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Summit Hardware Distributors in Denver, CO and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:30:30.140Z"
+      },
+      {
+        "id": 90,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Summit Hardware Distributors in Denver, CO. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "company_name": "Quick Clean Facility Supplies",
+    "website": "https://www.quickcleanfacility.com",
+    "email": "sales@quickcleanfacility.com",
+    "phone": "(214) 555-0982",
+    "address": "2500 Main St",
+    "city": "Dallas",
+    "state": "TX",
+    "country": "USA",
+    "description": "Wholesale supplier of cleaning products, facility maintenance items, and disinfectants.",
+    "products_focus": "Disinfectants, facility supplies, janitorial tools",
+    "distributor_type": "B2B Supplier",
+    "source_url": "https://www.yellowpages.com/dallas-tx/mip/quick-clean-facility-supplies-4829103",
+    "confidence_score": 53,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:30:37.825Z",
+    "notes": "Good mid-confidence supplier.",
+    "messages": [
+      {
+        "id": 91,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Quick Clean Facility Supplies",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Quick Clean Facility Supplies while researching leading B2B hardware and chemical distributors in the Dallas, TX area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Dallas, TX, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 92,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Quick Clean Facility Supplies",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Quick Clean Facility Supplies.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Dallas, TX, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 93,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Quick Clean Facility Supplies is a leading B2B hardware distributor in Dallas, TX. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 94,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Quick Clean Facility Supplies in Dallas, TX and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:30:37.825Z"
+      },
+      {
+        "id": 95,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Quick Clean Facility Supplies in Dallas, TX. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "company_name": "Boston Hardware Trade Supply",
+    "website": "https://www.bostonhardwaretrade.com",
+    "email": "sales@bostonhardwaretrade.com",
+    "phone": "(617) 555-0912",
+    "address": "150 State St",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "description": "General hardware distributor and B2B trade supplier.",
+    "products_focus": "Construction materials, basic cleaning solvents",
+    "distributor_type": "Trade Distributor",
+    "source_url": "https://us.kompass.com/c/boston-hardware-trade-supply/us99281/",
+    "confidence_score": 50,
+    "status": "contacted",
+    "scraped_at": "2026-06-07T10:42:57.334599",
+    "contacted_at": "2026-06-07T05:30:42.290Z",
+    "notes": "Trade hardware supplier with some chemical focus.",
+    "messages": [
+      {
+        "id": 96,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Boston Hardware Trade Supply",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Boston Hardware Trade Supply while researching leading B2B hardware and chemical distributors in the Boston, MA area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Boston, MA, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 97,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Boston Hardware Trade Supply",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Boston Hardware Trade Supply.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Boston, MA, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 98,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Boston Hardware Trade Supply is a leading B2B hardware distributor in Boston, MA. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 99,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Boston Hardware Trade Supply in Boston, MA and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "sent",
+        "sent_at": "2026-06-07T05:30:42.290Z"
+      },
+      {
+        "id": 100,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Boston Hardware Trade Supply in Boston, MA. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "company_name": "Dawson Chemical &amp; Janitorial Supplies",
+    "website": "https://www.dawsonchemicalampjanitorialsupplies.com",
+    "email": "info@dawsonchemicalampjanitorialsupplies.com",
+    "phone": "(800) 555-8355",
+    "address": "100 Main St",
+    "city": "Houston",
+    "state": "TX",
+    "country": "USA",
+    "description": "Get reviews, hours, directions, coupons and more for Dawson Chemical &amp; Janitorial Supplies. Search for other Janitors Equipment &amp; Supplies on The Real Yellow Pages\u00ae.",
+    "products_focus": "Chemical, Janitorial",
+    "distributor_type": "YellowPages B2B Distributor",
+    "source_url": "https://www.yellowpages.com/houston-tx/mip/dawson-chemical-janitorial-supplies-1052964",
+    "confidence_score": 26,
+    "status": "new",
+    "scraped_at": "2026-06-07T11:37:36.619558",
+    "contacted_at": null,
+    "notes": "Scraped from YellowPages via DuckDuckGo.",
+    "messages": [
+      {
+        "id": 106,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Dawson Chemical &amp; Janitorial Supplies",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Dawson Chemical &amp; Janitorial Supplies while researching leading B2B hardware and chemical distributors in the Houston, TX area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Houston, TX, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 107,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Dawson Chemical &amp; Janitorial Supplies",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Dawson Chemical &amp; Janitorial Supplies.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Houston, TX, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 108,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Dawson Chemical &amp; Janitorial Supplies is a leading B2B hardware distributor in Houston, TX. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 109,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Dawson Chemical &amp; Janitorial Supplies in Houston, TX and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 110,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Dawson Chemical &amp; Janitorial Supplies in Houston, TX. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  }
+]
