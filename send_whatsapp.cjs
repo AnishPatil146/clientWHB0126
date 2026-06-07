@@ -8,7 +8,7 @@ const qrcodeTerminal = require('qrcode-terminal');
 
 const CLIENT_DIR = __dirname;
 const DB_PATH = path.join(CLIENT_DIR, 'leads_WHB0126.db');
-const AUTH_DIR = path.join(CLIENT_DIR, 'auth_info_WHB0126');
+const AUTH_DIR = path.join(CLIENT_DIR, 'cleara_baileys_auth');
 
 // Create auth directory if it doesn't exist
 if (!fs.existsSync(AUTH_DIR)) {
