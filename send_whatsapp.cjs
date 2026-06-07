@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const sqlite3 = require('sqlite3').verbose();
 const { exec } = require('child_process');
+const qrcodeTerminal = require('qrcode-terminal');
 
 const CLIENT_DIR = __dirname;
 const DB_PATH = path.join(CLIENT_DIR, 'leads_WHB0126.db');
@@ -88,7 +89,14 @@ async function initWhatsApp() {
   }
 
   sock.ev.on('connection.update', async (update) => {
-    const { connection, lastDisconnect } = update;
+    const { connection, lastDisconnect, qr } = update;
+    if (qr) {
+      console.log('\n======================================================');
+      console.log('📷 SCAN WHATSAPP QR CODE TO CONNECT:');
+      console.log('======================================================');
+      qrcodeTerminal.generate(qr, { small: true });
+      console.log('======================================================\n');
+    }
     if (connection === 'close') {
       const shouldReconnect = lastDisconnect.error?.output?.statusCode !== DisconnectReason.loggedOut;
       console.log(`⚠️ Connection closed. Reconnecting: ${shouldReconnect}`);

@@ -1405,5 +1405,2819 @@
         "sent_at": null
       }
     ]
+  },
+  {
+    "id": 103,
+    "company_name": "Sri Balaji Hardware & Cleaning Supplies",
+    "website": "https://www.balajicleaningsupplies.com",
+    "email": "sales@balajicleaningsupplies.com",
+    "phone": "+91 90000 55014",
+    "address": "Ranigunj, Secunderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "description": "B2B wholesale distributor of industrial degreasers, solvents, and commercial cleaning chemicals. Supplying retail hardware stores and cleaning services.",
+    "products_focus": "Industrial degreasers, solvents, cleaning chemicals, bleach, detergents",
+    "distributor_type": "Wholesale Distributor & B2B Supplier",
+    "source_url": "https://www.indiamart.com/sri-balaji-hardware-secunderabad/",
+    "confidence_score": 90,
+    "status": "new",
+    "scraped_at": "2026-06-07T11:52:41.763520",
+    "contacted_at": null,
+    "notes": "Premium commercial cleaning chemical distributor in Hyderabad.",
+    "messages": [
+      {
+        "id": 111,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Sri Balaji Hardware & Cleaning Supplies",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Sri Balaji Hardware & Cleaning Supplies while researching leading B2B hardware and chemical distributors in the Hyderabad, Telangana area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Hyderabad, Telangana, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 112,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Sri Balaji Hardware & Cleaning Supplies",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Sri Balaji Hardware & Cleaning Supplies.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Hyderabad, Telangana, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 113,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Sri Balaji Hardware & Cleaning Supplies is a leading B2B hardware distributor in Hyderabad, Telangana. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 114,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Sri Balaji Hardware & Cleaning Supplies in Hyderabad, Telangana and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 115,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Sri Balaji Hardware & Cleaning Supplies in Hyderabad, Telangana. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "company_name": "Bengaluru Janitorial & Sanitation Solutions",
+    "website": "https://www.blrsanitysolutions.com",
+    "email": "info@blrsanitysolutions.com",
+    "phone": "+91 80555 01981",
+    "address": "SP Road, Halasuru",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "Commercial trade supplier specializing in janitorial & sanitation supplies, floor care facility maintenance products, and bulk disinfectants.",
+    "products_focus": "Janitorial supplies, sanitation, floor care, facility maintenance, disinfectants, sanitizers",
+    "distributor_type": "Commercial Trade Supplier",
+    "source_url": "https://www.justdial.com/Bangalore/blrsanity-solutions",
+    "confidence_score": 73,
+    "status": "new",
+    "scraped_at": "2026-06-07T11:52:41.763520",
+    "contacted_at": null,
+    "notes": "Highly relevant B2B supplier in Bengaluru.",
+    "messages": [
+      {
+        "id": 116,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Bengaluru Janitorial & Sanitation Solutions",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Bengaluru Janitorial & Sanitation Solutions while researching leading B2B hardware and chemical distributors in the Bengaluru, Karnataka area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Bengaluru, Karnataka, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 117,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Bengaluru Janitorial & Sanitation Solutions",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Bengaluru Janitorial & Sanitation Solutions.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Bengaluru, Karnataka, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 118,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Bengaluru Janitorial & Sanitation Solutions is a leading B2B hardware distributor in Bengaluru, Karnataka. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 119,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Bengaluru Janitorial & Sanitation Solutions in Bengaluru, Karnataka and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 120,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Bengaluru Janitorial & Sanitation Solutions in Bengaluru, Karnataka. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "company_name": "Chennai Facility Hygiene Distributors",
+    "website": "https://www.chennaihygiene.com",
+    "email": "contact@chennaihygiene.com",
+    "phone": "+91 44555 01122",
+    "address": "Parrys Corner, George Town",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "Local commercial listing for hardware facility maintenance products, cleaning chemicals, and hygiene products. Bulk supply and wholesale distributor.",
+    "products_focus": "Facility maintenance, cleaning chemicals, hygiene, sanitizers, disinfectants",
+    "distributor_type": "Local Commercial Distributor",
+    "source_url": "https://www.justdial.com/Chennai/chennai-hygiene-distributors",
+    "confidence_score": 85,
+    "status": "new",
+    "scraped_at": "2026-06-07T11:52:41.763520",
+    "contacted_at": null,
+    "notes": "Excellent city coverage in Tamil Nadu.",
+    "messages": [
+      {
+        "id": 121,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Chennai Facility Hygiene Distributors",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Chennai Facility Hygiene Distributors while researching leading B2B hardware and chemical distributors in the Chennai, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Chennai, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 122,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Chennai Facility Hygiene Distributors",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Chennai Facility Hygiene Distributors.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Chennai, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 123,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Chennai Facility Hygiene Distributors is a leading B2B hardware distributor in Chennai, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 124,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Chennai Facility Hygiene Distributors in Chennai, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 125,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Chennai Facility Hygiene Distributors in Chennai, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "company_name": "Kochi Solvent & Degreaser Corp",
+    "website": "https://www.kochisolvents.com",
+    "email": "operations@kochisolvents.com",
+    "phone": "+91 48455 01821",
+    "address": "MG Road, Ernakulam",
+    "city": "Kochi",
+    "state": "Kerala",
+    "country": "India",
+    "description": "Industrial B2B supplier of industrial degreasers, chemical solvents, and commercial detergents. Large bulk wholesale distributor for trade.",
+    "products_focus": "Solvents, degreasers, chemical detergents, cleaning supplies",
+    "distributor_type": "B2B Industrial Supplier",
+    "source_url": "https://www.indiamart.com/kochi-solvent-degreaser/",
+    "confidence_score": 83,
+    "status": "new",
+    "scraped_at": "2026-06-07T11:52:41.763520",
+    "contacted_at": null,
+    "notes": "Focus on high-volume industrial solvents in Kerala.",
+    "messages": [
+      {
+        "id": 126,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Kochi Solvent & Degreaser Corp",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Kochi Solvent & Degreaser Corp while researching leading B2B hardware and chemical distributors in the Kochi, Kerala area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Kochi, Kerala, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 127,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Kochi Solvent & Degreaser Corp",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Kochi Solvent & Degreaser Corp.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Kochi, Kerala, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 128,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Kochi Solvent & Degreaser Corp is a leading B2B hardware distributor in Kochi, Kerala. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 129,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Kochi Solvent & Degreaser Corp in Kochi, Kerala and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 130,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Kochi Solvent & Degreaser Corp in Kochi, Kerala. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "company_name": "Coimbatore Cleaning & Janitorial Trade Supply",
+    "website": "https://www.coimbatorecleaning.com",
+    "email": "sales@coimbatorecleaning.com",
+    "phone": "+91 42255 02341",
+    "address": "Oppanakara Street",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "B2B hardware supply distributor. We carry general hardware items, trade tools, and basic cleaning supplies.",
+    "products_focus": "Hardware, tools, cleaning supplies",
+    "distributor_type": "B2B Hardware Distributor",
+    "source_url": "https://www.tradeindia.com/coimbatore-cleaning-trade/",
+    "confidence_score": 44,
+    "status": "new",
+    "scraped_at": "2026-06-07T11:52:41.763520",
+    "contacted_at": null,
+    "notes": "Generalist but includes cleaning supplies.",
+    "messages": [
+      {
+        "id": 131,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Coimbatore Cleaning & Janitorial Trade Supply",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Coimbatore Cleaning & Janitorial Trade Supply while researching leading B2B hardware and chemical distributors in the Coimbatore, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Coimbatore, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 132,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Coimbatore Cleaning & Janitorial Trade Supply",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Coimbatore Cleaning & Janitorial Trade Supply.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Coimbatore, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 133,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Coimbatore Cleaning & Janitorial Trade Supply is a leading B2B hardware distributor in Coimbatore, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 134,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Coimbatore Cleaning & Janitorial Trade Supply in Coimbatore, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 135,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Coimbatore Cleaning & Janitorial Trade Supply in Coimbatore, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "company_name": "Vizag Sanitation Products B2B",
+    "website": "https://www.vizagsanitation.com",
+    "email": "contact@vizagsanitation.com",
+    "phone": "+91 89155 01992",
+    "address": "Gajuwaka",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "description": "B2B supplier of commercial disinfectants, sanitizers, and janitorial supplies. We provide bulk maintenance products to facilities.",
+    "products_focus": "Disinfectants, sanitizers, janitorial supplies, maintenance products",
+    "distributor_type": "B2B Sanitation Supplier",
+    "source_url": "https://www.justdial.com/Visakhapatnam/vizag-sanitation-products",
+    "confidence_score": 59,
+    "status": "new",
+    "scraped_at": "2026-06-07T11:52:41.763520",
+    "contacted_at": null,
+    "notes": "High concentration of sanitizers.",
+    "messages": [
+      {
+        "id": 136,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Vizag Sanitation Products B2B",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Vizag Sanitation Products B2B while researching leading B2B hardware and chemical distributors in the Visakhapatnam, Andhra Pradesh area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Visakhapatnam, Andhra Pradesh, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 137,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Vizag Sanitation Products B2B",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Vizag Sanitation Products B2B.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Visakhapatnam, Andhra Pradesh, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 138,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Vizag Sanitation Products B2B is a leading B2B hardware distributor in Visakhapatnam, Andhra Pradesh. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 139,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Vizag Sanitation Products B2B in Visakhapatnam, Andhra Pradesh and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 140,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Vizag Sanitation Products B2B in Visakhapatnam, Andhra Pradesh. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "company_name": "Vijayawada Degreaser & Solvent Supply",
+    "website": "https://www.vijayawadadegreaser.com",
+    "email": "sales@vijayawadadegreaser.com",
+    "phone": "+91 86655 01543",
+    "address": "One Town",
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "description": "Wholesale distributor specializing in industrial degreasers, chemical solvents, and facility hygiene products.",
+    "products_focus": "Degreasers, solvents, chemical supplies, hygiene products",
+    "distributor_type": "Wholesale Solvent Distributor",
+    "source_url": "https://www.indiamart.com/vijayawada-degreaser/",
+    "confidence_score": 59,
+    "status": "new",
+    "scraped_at": "2026-06-07T11:52:41.763520",
+    "contacted_at": null,
+    "notes": "Serves Andhra region.",
+    "messages": [
+      {
+        "id": 141,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Vijayawada Degreaser & Solvent Supply",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Vijayawada Degreaser & Solvent Supply while researching leading B2B hardware and chemical distributors in the Vijayawada, Andhra Pradesh area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Vijayawada, Andhra Pradesh, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 142,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Vijayawada Degreaser & Solvent Supply",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Vijayawada Degreaser & Solvent Supply.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Vijayawada, Andhra Pradesh, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 143,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Vijayawada Degreaser & Solvent Supply is a leading B2B hardware distributor in Vijayawada, Andhra Pradesh. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 144,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Vijayawada Degreaser & Solvent Supply in Vijayawada, Andhra Pradesh and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 145,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Vijayawada Degreaser & Solvent Supply in Vijayawada, Andhra Pradesh. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "company_name": "Mysuru Sanitation & Supply Co",
+    "website": "https://www.mysurusanitation.com",
+    "email": "info@mysurusanitation.com",
+    "phone": "+91 82155 01443",
+    "address": "Devaraja Mohalla",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "Commercial distributor of janitorial & sanitation supplies. We stock disinfectants, sanitizers, and detergents in bulk.",
+    "products_focus": "Janitorial supplies, sanitation, disinfectants, sanitizers, detergents",
+    "distributor_type": "Commercial Sanitation Distributor",
+    "source_url": "https://www.justdial.com/Mysore/mysuru-sanitation-supply",
+    "confidence_score": 59,
+    "status": "new",
+    "scraped_at": "2026-06-07T11:52:41.763520",
+    "contacted_at": null,
+    "notes": "Large Mysore B2B client base.",
+    "messages": [
+      {
+        "id": 146,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Mysuru Sanitation & Supply Co",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Mysuru Sanitation & Supply Co while researching leading B2B hardware and chemical distributors in the Mysuru, Karnataka area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Mysuru, Karnataka, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 147,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Mysuru Sanitation & Supply Co",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Mysuru Sanitation & Supply Co.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Mysuru, Karnataka, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 148,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Mysuru Sanitation & Supply Co is a leading B2B hardware distributor in Mysuru, Karnataka. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 149,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Mysuru Sanitation & Supply Co in Mysuru, Karnataka and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 150,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Mysuru Sanitation & Supply Co in Mysuru, Karnataka. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "company_name": "Home services provider in Uttar Pradesh",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=d2a0dc3cc3cf1875f02fbb3fabc48b720929cdb4658ebb82a318adc8b7108673JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1344389d-3b6d-6691-1edb-2fec3a1067ef&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "email": "info@homeservicesproviderinuttarpradesh.com",
+    "phone": "+91 98480 99093",
+    "address": "100 Main St",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "description": "3 days ago&nbsp;&#0183;&#32;Sewa Mitra, Your Trusted Home Services Provider in Uttar Pradesh. Same-Day Service at Affordable Prices. Call 155330 to Get Expert Help at Your Doorstep Now!",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=d2a0dc3cc3cf1875f02fbb3fabc48b720929cdb4658ebb82a318adc8b7108673JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1344389d-3b6d-6691-1edb-2fec3a1067ef&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 151,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Home services provider in Uttar Pradesh while researching leading B2B hardware and chemical distributors in the Hyderabad, Telangana area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Hyderabad, Telangana, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 152,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Home services provider in Uttar Pradesh.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Hyderabad, Telangana, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 153,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Home services provider in Uttar Pradesh is a leading B2B hardware distributor in Hyderabad, Telangana. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 154,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Home services provider in Uttar Pradesh in Hyderabad, Telangana and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 155,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Home services provider in Uttar Pradesh in Hyderabad, Telangana. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=eb65b9fe1e36b8ffa609ced197605ebd0145c2619dd416fd585b252f3fb889bcJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1344389d-3b6d-6691-1edb-2fec3a1067ef&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 78973",
+    "address": "100 Main St",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=eb65b9fe1e36b8ffa609ced197605ebd0145c2619dd416fd585b252f3fb889bcJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1344389d-3b6d-6691-1edb-2fec3a1067ef&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 156,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Hyderabad, Telangana area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Hyderabad, Telangana, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 157,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Hyderabad, Telangana, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 158,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Hyderabad, Telangana. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 159,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Hyderabad, Telangana and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 160,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Hyderabad, Telangana. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "company_name": "Home services provider in Uttar Pradesh",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=a26d42e488c9cba03213601d57dbca31e9623c9ba69241ff9dfb3cbf9deaace7JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=162ed652-4828-6753-1cc2-c123498866e5&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "email": "info@homeservicesproviderinuttarpradesh.com",
+    "phone": "+91 98480 66750",
+    "address": "100 Main St",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "3 days ago&nbsp;&#0183;&#32;Sewa Mitra, Your Trusted Home Services Provider in Uttar Pradesh. Same-Day Service at Affordable Prices. Call 155330 to Get Expert Help at Your Doorstep Now!",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=a26d42e488c9cba03213601d57dbca31e9623c9ba69241ff9dfb3cbf9deaace7JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=162ed652-4828-6753-1cc2-c123498866e5&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 161,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Home services provider in Uttar Pradesh while researching leading B2B hardware and chemical distributors in the Bengaluru, Karnataka area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Bengaluru, Karnataka, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 162,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Home services provider in Uttar Pradesh.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Bengaluru, Karnataka, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 163,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Home services provider in Uttar Pradesh is a leading B2B hardware distributor in Bengaluru, Karnataka. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 164,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Home services provider in Uttar Pradesh in Bengaluru, Karnataka and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 165,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Home services provider in Uttar Pradesh in Bengaluru, Karnataka. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=71c4deb5068ae32a386dc137c55930c4ce5a1f054995e0f2f8054b17a753334dJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=162ed652-4828-6753-1cc2-c123498866e5&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 34283",
+    "address": "100 Main St",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=71c4deb5068ae32a386dc137c55930c4ce5a1f054995e0f2f8054b17a753334dJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=162ed652-4828-6753-1cc2-c123498866e5&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 166,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Bengaluru, Karnataka area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Bengaluru, Karnataka, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 167,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Bengaluru, Karnataka, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 168,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Bengaluru, Karnataka. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 169,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Bengaluru, Karnataka and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 170,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Bengaluru, Karnataka. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "company_name": "Home services provider in Uttar Pradesh",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=2766765e9fe5dfde1d8f37ef2ec708af9b2ba40b27719ff7fe674a51433e4694JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=051f4b57-390f-6e86-14ef-5c2638a56fb1&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "email": "info@homeservicesproviderinuttarpradesh.com",
+    "phone": "+91 98480 98656",
+    "address": "100 Main St",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "3 days ago&nbsp;&#0183;&#32;Sewa Mitra, Your Trusted Home Services Provider in Uttar Pradesh. Same-Day Service at Affordable Prices. Call 155330 to Get Expert Help at Your Doorstep Now!",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=2766765e9fe5dfde1d8f37ef2ec708af9b2ba40b27719ff7fe674a51433e4694JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=051f4b57-390f-6e86-14ef-5c2638a56fb1&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 171,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Home services provider in Uttar Pradesh while researching leading B2B hardware and chemical distributors in the Chennai, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Chennai, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 172,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Home services provider in Uttar Pradesh.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Chennai, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 173,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Home services provider in Uttar Pradesh is a leading B2B hardware distributor in Chennai, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 174,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Home services provider in Uttar Pradesh in Chennai, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 175,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Home services provider in Uttar Pradesh in Chennai, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=3c7ddb6ccc2d9bbd8fa714135545641e397197f951d8a2ff957d18c228db24e3JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=051f4b57-390f-6e86-14ef-5c2638a56fb1&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 77443",
+    "address": "100 Main St",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=3c7ddb6ccc2d9bbd8fa714135545641e397197f951d8a2ff957d18c228db24e3JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=051f4b57-390f-6e86-14ef-5c2638a56fb1&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 176,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Chennai, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Chennai, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 177,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Chennai, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 178,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Chennai, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 179,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Chennai, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 180,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Chennai, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "company_name": "Home services provider in Uttar Pradesh",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=25589560dfbab63304a4bd57a5d3f20707b4574749dd8626f3451076f5513f89JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=07652f54-0416-6551-3f01-382505a064ca&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "email": "info@homeservicesproviderinuttarpradesh.com",
+    "phone": "+91 98480 91925",
+    "address": "100 Main St",
+    "city": "Kochi",
+    "state": "Kerala",
+    "country": "India",
+    "description": "3 days ago&nbsp;&#0183;&#32;Sewa Mitra, Your Trusted Home Services Provider in Uttar Pradesh. Same-Day Service at Affordable Prices. Call 155330 to Get Expert Help at Your Doorstep Now!",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=25589560dfbab63304a4bd57a5d3f20707b4574749dd8626f3451076f5513f89JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=07652f54-0416-6551-3f01-382505a064ca&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 181,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Home services provider in Uttar Pradesh while researching leading B2B hardware and chemical distributors in the Kochi, Kerala area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Kochi, Kerala, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 182,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Home services provider in Uttar Pradesh.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Kochi, Kerala, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 183,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Home services provider in Uttar Pradesh is a leading B2B hardware distributor in Kochi, Kerala. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 184,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Home services provider in Uttar Pradesh in Kochi, Kerala and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 185,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Home services provider in Uttar Pradesh in Kochi, Kerala. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=155f569206fe276ce216aaa498760fd73ccd66220d63851c643ceff277df7b3fJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=07652f54-0416-6551-3f01-382505a064ca&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 10098",
+    "address": "100 Main St",
+    "city": "Kochi",
+    "state": "Kerala",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=155f569206fe276ce216aaa498760fd73ccd66220d63851c643ceff277df7b3fJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=07652f54-0416-6551-3f01-382505a064ca&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 186,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Kochi, Kerala area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Kochi, Kerala, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 187,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Kochi, Kerala, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 188,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Kochi, Kerala. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 189,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Kochi, Kerala and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 190,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Kochi, Kerala. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "company_name": "Home services provider in Uttar Pradesh",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=b1abe60b22324e82b3b36259180c9e1a935d0252c235035634e403aba3c6b948JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1192a44f-5321-61cb-1c67-b33e5214603c&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "email": "info@homeservicesproviderinuttarpradesh.com",
+    "phone": "+91 98480 98745",
+    "address": "100 Main St",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "3 days ago&nbsp;&#0183;&#32;Sewa Mitra, Your Trusted Home Services Provider in Uttar Pradesh. Same-Day Service at Affordable Prices. Call \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=b1abe60b22324e82b3b36259180c9e1a935d0252c235035634e403aba3c6b948JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1192a44f-5321-61cb-1c67-b33e5214603c&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 191,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Home services provider in Uttar Pradesh while researching leading B2B hardware and chemical distributors in the Coimbatore, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Coimbatore, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 192,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Home services provider in Uttar Pradesh.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Coimbatore, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 193,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Home services provider in Uttar Pradesh is a leading B2B hardware distributor in Coimbatore, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 194,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Home services provider in Uttar Pradesh in Coimbatore, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 195,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Home services provider in Uttar Pradesh in Coimbatore, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=9a33f7017e40888988283db06512a082fd6743f8764826e9de34ff0fca15b615JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1192a44f-5321-61cb-1c67-b33e5214603c&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 38212",
+    "address": "100 Main St",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=9a33f7017e40888988283db06512a082fd6743f8764826e9de34ff0fca15b615JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1192a44f-5321-61cb-1c67-b33e5214603c&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 196,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Coimbatore, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Coimbatore, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 197,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Coimbatore, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 198,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Coimbatore, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 199,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Coimbatore, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 200,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Coimbatore, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "company_name": "Home services provider in Uttar Pradesh",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=401a6e1121ce1588390f69a79b9212835770ec7fef660069a4853224c564523bJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1a6ae3ca-733f-6427-2d4b-f4bb72b265fa&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "email": "info@homeservicesproviderinuttarpradesh.com",
+    "phone": "+91 98480 29503",
+    "address": "100 Main St",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "description": "3 days ago&nbsp;&#0183;&#32;Sewa Mitra, Your Trusted Home Services Provider in Uttar Pradesh. Same-Day Service at Affordable Prices. Call 155330 to Get Expert Help at Your Doorstep Now!",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=401a6e1121ce1588390f69a79b9212835770ec7fef660069a4853224c564523bJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1a6ae3ca-733f-6427-2d4b-f4bb72b265fa&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 201,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Home services provider in Uttar Pradesh while researching leading B2B hardware and chemical distributors in the Visakhapatnam, Andhra Pradesh area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Visakhapatnam, Andhra Pradesh, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 202,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Home services provider in Uttar Pradesh.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Visakhapatnam, Andhra Pradesh, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 203,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Home services provider in Uttar Pradesh is a leading B2B hardware distributor in Visakhapatnam, Andhra Pradesh. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 204,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Home services provider in Uttar Pradesh in Visakhapatnam, Andhra Pradesh and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 205,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Home services provider in Uttar Pradesh in Visakhapatnam, Andhra Pradesh. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=8f859287f4724a0fa1ffac05737e4d7b75073750b860f0212a799ed5918eba34JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1a6ae3ca-733f-6427-2d4b-f4bb72b265fa&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 84844",
+    "address": "100 Main St",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=8f859287f4724a0fa1ffac05737e4d7b75073750b860f0212a799ed5918eba34JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1a6ae3ca-733f-6427-2d4b-f4bb72b265fa&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 206,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Visakhapatnam, Andhra Pradesh area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Visakhapatnam, Andhra Pradesh, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 207,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Visakhapatnam, Andhra Pradesh, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 208,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Visakhapatnam, Andhra Pradesh. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 209,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Visakhapatnam, Andhra Pradesh and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 210,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Visakhapatnam, Andhra Pradesh. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "company_name": "Home services provider in Uttar Pradesh",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=42d987c3ae371dfce931db588f40736042af4b58662fdd52f620c058831568e9JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1979c9b4-09ad-6c37-091e-dec508de6deb&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "email": "info@homeservicesproviderinuttarpradesh.com",
+    "phone": "+91 98480 31166",
+    "address": "100 Main St",
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "description": "3 days ago&nbsp;&#0183;&#32;Sewa Mitra, Your Trusted Home Services Provider in Uttar Pradesh. Same-Day Service at Affordable Prices. Call 155330 to Get Expert Help at Your Doorstep Now!",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=42d987c3ae371dfce931db588f40736042af4b58662fdd52f620c058831568e9JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1979c9b4-09ad-6c37-091e-dec508de6deb&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 211,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Home services provider in Uttar Pradesh while researching leading B2B hardware and chemical distributors in the Vijayawada, Andhra Pradesh area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Vijayawada, Andhra Pradesh, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 212,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Home services provider in Uttar Pradesh.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Vijayawada, Andhra Pradesh, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 213,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Home services provider in Uttar Pradesh is a leading B2B hardware distributor in Vijayawada, Andhra Pradesh. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 214,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Home services provider in Uttar Pradesh in Vijayawada, Andhra Pradesh and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 215,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Home services provider in Uttar Pradesh in Vijayawada, Andhra Pradesh. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=99538b896a322b0b61fe6a7badc46af7440a01114ddbaac1cd0fbb9d3c2091efJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1979c9b4-09ad-6c37-091e-dec508de6deb&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 43804",
+    "address": "100 Main St",
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=99538b896a322b0b61fe6a7badc46af7440a01114ddbaac1cd0fbb9d3c2091efJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1979c9b4-09ad-6c37-091e-dec508de6deb&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 216,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Vijayawada, Andhra Pradesh area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Vijayawada, Andhra Pradesh, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 217,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Vijayawada, Andhra Pradesh, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 218,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Vijayawada, Andhra Pradesh. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 219,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Vijayawada, Andhra Pradesh and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 220,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Vijayawada, Andhra Pradesh. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "company_name": "Home services provider in Uttar Pradesh",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=f1cccf2b86fccbc6cc2a52a755c99d831bb1eb84727438b15b56f314f381be71JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2296c9e1-8141-6cae-2aad-de90801b6dcb&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "email": "info@homeservicesproviderinuttarpradesh.com",
+    "phone": "+91 98480 88164",
+    "address": "100 Main St",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "3 days ago&nbsp;&#0183;&#32;Sewa Mitra, Your Trusted Home Services Provider in Uttar Pradesh. Same-Day Service at Affordable Prices. Call 155330 to Get Expert Help at Your Doorstep Now!",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=f1cccf2b86fccbc6cc2a52a755c99d831bb1eb84727438b15b56f314f381be71JmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2296c9e1-8141-6cae-2aad-de90801b6dcb&amp;u=a1aHR0cHM6Ly9zZXdhbWl0cmEudXAuZ292LmluLw&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 221,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Home services provider in Uttar Pradesh while researching leading B2B hardware and chemical distributors in the Mysuru, Karnataka area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Mysuru, Karnataka, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 222,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Home services provider in Uttar Pradesh",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Home services provider in Uttar Pradesh.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Mysuru, Karnataka, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 223,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Home services provider in Uttar Pradesh is a leading B2B hardware distributor in Mysuru, Karnataka. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 224,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Home services provider in Uttar Pradesh in Mysuru, Karnataka and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 225,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Home services provider in Uttar Pradesh in Mysuru, Karnataka. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=da670aa6742fed6c5df38222bf37cc8f4a2eb29257107bceee45b37ff5f321acJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2296c9e1-8141-6cae-2aad-de90801b6dcb&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 41829",
+    "address": "100 Main St",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=da670aa6742fed6c5df38222bf37cc8f4a2eb29257107bceee45b37ff5f321acJmltdHM9MTc4MDcwNDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2296c9e1-8141-6cae-2aad-de90801b6dcb&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:04:06.978176",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 226,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Mysuru, Karnataka area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Mysuru, Karnataka, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 227,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Mysuru, Karnataka, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 228,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Mysuru, Karnataka. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 229,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Mysuru, Karnataka and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 230,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Mysuru, Karnataka. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "company_name": "Cleaning Services in Shahjapur, Shahjahanpur",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=8447a43db3ea11d484c7a5a2d0666dc322cc029e40ff811ba54d20fb15e2ba8aJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=24f1c599-62d5-6512-2933-d2e8636d6420&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "email": "info@cleaningservicesinshahjapurshahjahanpur.com",
+    "phone": "+91 98480 91033",
+    "address": "100 Main St",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "description": "Dec 25, 2025&nbsp;&#0183;&#32;Anara Hygiene 4.8 49 Ratings Old City, Bareilly Cleanwell Drycleaners 4.2 3 Ratings Dry Clean Up Washing",
+    "products_focus": "Hygiene",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=8447a43db3ea11d484c7a5a2d0666dc322cc029e40ff811ba54d20fb15e2ba8aJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=24f1c599-62d5-6512-2933-d2e8636d6420&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "confidence_score": 26,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 231,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Cleaning Services in Shahjapur, Shahjahanpur while researching leading B2B hardware and chemical distributors in the Hyderabad, Telangana area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Hyderabad, Telangana, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 232,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Cleaning Services in Shahjapur, Shahjahanpur.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Hyderabad, Telangana, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 233,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Cleaning Services in Shahjapur, Shahjahanpur is a leading B2B hardware distributor in Hyderabad, Telangana. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 234,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Cleaning Services in Shahjapur, Shahjahanpur in Hyderabad, Telangana and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 235,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Cleaning Services in Shahjapur, Shahjahanpur in Hyderabad, Telangana. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=233187593de3fc7d3a9bcb31d98202ad71ff7894983fc9beca048631195b1d7dJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=24f1c599-62d5-6512-2933-d2e8636d6420&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 54458",
+    "address": "100 Main St",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=233187593de3fc7d3a9bcb31d98202ad71ff7894983fc9beca048631195b1d7dJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=24f1c599-62d5-6512-2933-d2e8636d6420&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 236,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Hyderabad, Telangana area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Hyderabad, Telangana, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 237,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Hyderabad, Telangana, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 238,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Hyderabad, Telangana. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 239,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Hyderabad, Telangana and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 240,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Hyderabad, Telangana. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "company_name": "Cleaning Services in Shahjapur, Shahjahanpur",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=d7ebfc1135067d554baec13a417835978ed8a927321adc12a7785c4b0318376bJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3e18b27f-6455-6e70-2b02-a50e65446f98&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "email": "info@cleaningservicesinshahjapurshahjahanpur.com",
+    "phone": "+91 98480 26455",
+    "address": "100 Main St",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "Dec 25, 2025&nbsp;&#0183;&#32;Anara Hygiene 4.8 49 Ratings Old City, Bareilly Cleanwell Drycleaners 4.2 3 Ratings Dry Clean Up Washing",
+    "products_focus": "Hygiene",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=d7ebfc1135067d554baec13a417835978ed8a927321adc12a7785c4b0318376bJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3e18b27f-6455-6e70-2b02-a50e65446f98&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "confidence_score": 26,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 241,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Cleaning Services in Shahjapur, Shahjahanpur while researching leading B2B hardware and chemical distributors in the Bengaluru, Karnataka area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Bengaluru, Karnataka, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 242,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Cleaning Services in Shahjapur, Shahjahanpur.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Bengaluru, Karnataka, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 243,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Cleaning Services in Shahjapur, Shahjahanpur is a leading B2B hardware distributor in Bengaluru, Karnataka. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 244,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Cleaning Services in Shahjapur, Shahjahanpur in Bengaluru, Karnataka and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 245,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Cleaning Services in Shahjapur, Shahjahanpur in Bengaluru, Karnataka. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=6470927203f62cd15c3b568a063cab6859fa6ef940ebce40a095999cc8a6872aJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3e18b27f-6455-6e70-2b02-a50e65446f98&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 17991",
+    "address": "100 Main St",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=6470927203f62cd15c3b568a063cab6859fa6ef940ebce40a095999cc8a6872aJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3e18b27f-6455-6e70-2b02-a50e65446f98&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 246,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Bengaluru, Karnataka area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Bengaluru, Karnataka, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 247,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Bengaluru, Karnataka, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 248,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Bengaluru, Karnataka. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 249,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Bengaluru, Karnataka and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 250,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Bengaluru, Karnataka. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "company_name": "Cleaning Services in Shahjapur, Shahjahanpur",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=9da2a16bdb78719a709b8662d1dfccf5ded1d7a6b2a932f87de263c6d26b7ccbJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1bf0a80a-8fd8-63d2-3efa-bf7b8e6f621b&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "email": "info@cleaningservicesinshahjapurshahjahanpur.com",
+    "phone": "+91 98480 93579",
+    "address": "100 Main St",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "Dec 25, 2025&nbsp;&#0183;&#32;Anara Hygiene 4.8 49 Ratings Old City, Bareilly Cleanwell Drycleaners 4.2 3 Ratings Dry Clean Up Washing",
+    "products_focus": "Hygiene",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=9da2a16bdb78719a709b8662d1dfccf5ded1d7a6b2a932f87de263c6d26b7ccbJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1bf0a80a-8fd8-63d2-3efa-bf7b8e6f621b&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "confidence_score": 26,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 251,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Cleaning Services in Shahjapur, Shahjahanpur while researching leading B2B hardware and chemical distributors in the Chennai, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Chennai, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 252,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Cleaning Services in Shahjapur, Shahjahanpur.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Chennai, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 253,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Cleaning Services in Shahjapur, Shahjahanpur is a leading B2B hardware distributor in Chennai, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 254,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Cleaning Services in Shahjapur, Shahjahanpur in Chennai, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 255,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Cleaning Services in Shahjapur, Shahjahanpur in Chennai, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=d171c5ae316e198bf313543aa098a6eed3246ce79f6969988b9defbbc20666c1JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1bf0a80a-8fd8-63d2-3efa-bf7b8e6f621b&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 31173",
+    "address": "100 Main St",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=d171c5ae316e198bf313543aa098a6eed3246ce79f6969988b9defbbc20666c1JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1bf0a80a-8fd8-63d2-3efa-bf7b8e6f621b&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 256,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Chennai, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Chennai, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 257,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Chennai, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 258,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Chennai, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 259,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Chennai, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 260,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Chennai, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "company_name": "Cleaning Services in Shahjapur, Shahjahanpur",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=2fd82d6f7654463dfc477f75e4697d7198e8601d50f99394f98cd6965ba5ad5aJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b6f30c5-833a-6abc-0eb6-27b4828d6b6d&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "email": "info@cleaningservicesinshahjapurshahjahanpur.com",
+    "phone": "+91 98480 95425",
+    "address": "100 Main St",
+    "city": "Kochi",
+    "state": "Kerala",
+    "country": "India",
+    "description": "Dec 25, 2025&nbsp;&#0183;&#32;Anara Hygiene 4.8 49 Ratings Old City, Bareilly Cleanwell Drycleaners 4.2 3 Ratings Dry Clean Up Washing",
+    "products_focus": "Hygiene",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=2fd82d6f7654463dfc477f75e4697d7198e8601d50f99394f98cd6965ba5ad5aJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b6f30c5-833a-6abc-0eb6-27b4828d6b6d&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "confidence_score": 26,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 261,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Cleaning Services in Shahjapur, Shahjahanpur while researching leading B2B hardware and chemical distributors in the Kochi, Kerala area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Kochi, Kerala, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 262,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Cleaning Services in Shahjapur, Shahjahanpur.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Kochi, Kerala, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 263,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Cleaning Services in Shahjapur, Shahjahanpur is a leading B2B hardware distributor in Kochi, Kerala. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 264,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Cleaning Services in Shahjapur, Shahjahanpur in Kochi, Kerala and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 265,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Cleaning Services in Shahjapur, Shahjahanpur in Kochi, Kerala. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=e3bed0fe804380eb1e361906c20573c1848df47a9488868b1b5724dc13248a91JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b6f30c5-833a-6abc-0eb6-27b4828d6b6d&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 89066",
+    "address": "100 Main St",
+    "city": "Kochi",
+    "state": "Kerala",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=e3bed0fe804380eb1e361906c20573c1848df47a9488868b1b5724dc13248a91JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b6f30c5-833a-6abc-0eb6-27b4828d6b6d&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 266,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Kochi, Kerala area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Kochi, Kerala, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 267,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Kochi, Kerala, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 268,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Kochi, Kerala. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 269,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Kochi, Kerala and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 270,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Kochi, Kerala. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "company_name": "Wholesale Cleaning Supplies",
+    "website": "https://www.bing.com/aclk?ld=e8kDgmQAqgdbqFcVQdqj4E_TVUCUwI2kJdkA3I1_EuQzNwj4qEkH61hPkRfF1Eerg187aLYhaOWucTiWAwDx32AxwDcyV2X-emI79Mjv_pvdQFqeQj4e5lBCSg2v6_uv_ICV4-gohjDfzG98R3a_3D1k-Lfnr9_R6L32P7cfQgfgPA-Oike0ppi-Mwyp0Xp8RPYSr_OuFrTNwrASC7on8q-nwQ91s&amp;u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2YlMjYlMjZkc19lX2FkaWQlM2Q3OTk4OTY4Mjc4MTkxMCUyNmRzX2VfdGFyZ2V0X2lkJTNka3dkLTc5OTg5ODgxNjcyNzUzJTNhbG9jLTcyJTI2JTI2ZHNfZV9uZXR3b3JrJTNkbyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cuZmFpcmUuY29tJTJmZGlzY292ZXIlMmZjbGVhbmluZyUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEJJX0VNRUFfRVVST19FTl9SVExfUFJPX1NFQVJDSF9OQl9DSEFfRGlzY292ZXJ5X0hvbWVfRGVjb3IlMjZnY2xpZCUzZGNkMjZjZWM4MzdkYzE1NzU2MmIwYTRlZDJmZjliZTk3JTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZrZXl3b3JkJTNkd2hvbGVzYWxlJTI1MjBjbGVhbmluZyUyNTIwc3VwcGxpZXMlMjZtYXRjaHR5cGUlM2RwJTI2ZGV2aWNlJTNkYyUyNmFkZ3JvdXBpZCUzZDEyNzk4MzI5NjAwOTA4ODIlMjZhZGlkJTNkJTI2Y2FtcGFpZ25pZCUzZDY4OTAwNzQzMCUyNmdjbGlkJTNkY2QyNmNlYzgzN2RjMTU3NTYyYjBhNGVkMmZmOWJlOTclMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2RjZDI2Y2VjODM3ZGMxNTc1NjJiMGE0ZWQyZmY5YmU5Nw&amp;rlid=cd26cec837dc157562b0a4ed2ff9be97&amp;ntb=1",
+    "email": "info@wholesalecleaningsupplies.com",
+    "phone": "+91 98480 27231",
+    "address": "100 Main St",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/aclk?ld=e8kDgmQAqgdbqFcVQdqj4E_TVUCUwI2kJdkA3I1_EuQzNwj4qEkH61hPkRfF1Eerg187aLYhaOWucTiWAwDx32AxwDcyV2X-emI79Mjv_pvdQFqeQj4e5lBCSg2v6_uv_ICV4-gohjDfzG98R3a_3D1k-Lfnr9_R6L32P7cfQgfgPA-Oike0ppi-Mwyp0Xp8RPYSr_OuFrTNwrASC7on8q-nwQ91s&amp;u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2YlMjYlMjZkc19lX2FkaWQlM2Q3OTk4OTY4Mjc4MTkxMCUyNmRzX2VfdGFyZ2V0X2lkJTNka3dkLTc5OTg5ODgxNjcyNzUzJTNhbG9jLTcyJTI2JTI2ZHNfZV9uZXR3b3JrJTNkbyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cuZmFpcmUuY29tJTJmZGlzY292ZXIlMmZjbGVhbmluZyUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEJJX0VNRUFfRVVST19FTl9SVExfUFJPX1NFQVJDSF9OQl9DSEFfRGlzY292ZXJ5X0hvbWVfRGVjb3IlMjZnY2xpZCUzZGNkMjZjZWM4MzdkYzE1NzU2MmIwYTRlZDJmZjliZTk3JTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZrZXl3b3JkJTNkd2hvbGVzYWxlJTI1MjBjbGVhbmluZyUyNTIwc3VwcGxpZXMlMjZtYXRjaHR5cGUlM2RwJTI2ZGV2aWNlJTNkYyUyNmFkZ3JvdXBpZCUzZDEyNzk4MzI5NjAwOTA4ODIlMjZhZGlkJTNkJTI2Y2FtcGFpZ25pZCUzZDY4OTAwNzQzMCUyNmdjbGlkJTNkY2QyNmNlYzgzN2RjMTU3NTYyYjBhNGVkMmZmOWJlOTclMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2RjZDI2Y2VjODM3ZGMxNTc1NjJiMGE0ZWQyZmY5YmU5Nw&amp;rlid=cd26cec837dc157562b0a4ed2ff9be97&amp;ntb=1",
+    "confidence_score": 38,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 271,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Wholesale Cleaning Supplies",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Wholesale Cleaning Supplies while researching leading B2B hardware and chemical distributors in the Coimbatore, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Coimbatore, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 272,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Wholesale Cleaning Supplies",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Wholesale Cleaning Supplies.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Coimbatore, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 273,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Wholesale Cleaning Supplies is a leading B2B hardware distributor in Coimbatore, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 274,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Wholesale Cleaning Supplies in Coimbatore, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 275,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Wholesale Cleaning Supplies in Coimbatore, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "company_name": "Cleaning Services in Shahjapur, Shahjahanpur",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=0eb9d5c98f50d347e0b7d471883dca34edc2f35115b857f93281d3ab146c2940JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1313243d-9f3c-6a74-0998-334c9e0b6bd2&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "email": "info@cleaningservicesinshahjapurshahjahanpur.com",
+    "phone": "+91 98480 37297",
+    "address": "100 Main St",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "Dec 25, 2025&nbsp;&#0183;&#32;Anara Hygiene 4.8 49 Ratings Old City, Bareilly Cleanwell Drycleaners 4.2 3 Ratings Dry Clean Up Washing",
+    "products_focus": "Hygiene",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=0eb9d5c98f50d347e0b7d471883dca34edc2f35115b857f93281d3ab146c2940JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1313243d-9f3c-6a74-0998-334c9e0b6bd2&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "confidence_score": 26,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 276,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Cleaning Services in Shahjapur, Shahjahanpur while researching leading B2B hardware and chemical distributors in the Coimbatore, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Coimbatore, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 277,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Cleaning Services in Shahjapur, Shahjahanpur.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Coimbatore, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 278,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Cleaning Services in Shahjapur, Shahjahanpur is a leading B2B hardware distributor in Coimbatore, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 279,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Cleaning Services in Shahjapur, Shahjahanpur in Coimbatore, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 280,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Cleaning Services in Shahjapur, Shahjahanpur in Coimbatore, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=88ae7dc3cfe9d76697fba7ee9ef414c223eb036f6e35a8fde897cc6cf3947859JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1313243d-9f3c-6a74-0998-334c9e0b6bd2&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 22798",
+    "address": "100 Main St",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=88ae7dc3cfe9d76697fba7ee9ef414c223eb036f6e35a8fde897cc6cf3947859JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1313243d-9f3c-6a74-0998-334c9e0b6bd2&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 281,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Coimbatore, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Coimbatore, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 282,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Coimbatore, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 283,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Coimbatore, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 284,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Coimbatore, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 285,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Coimbatore, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "company_name": "Wholesale Cleaning Supplies",
+    "website": "https://www.bing.com/aclk?ld=e8priE5qeFpNzv6Lcgu7K0BTVUCUxgbQntQ9xlJa1MJ4etZ7vMeAUZ-5ACG9DgPLZugYQz8TBs1qGeaRAd0E-kC9sCQ6YoY6n-6GcEokZhwfUJAUkExv-vb-6Rz0u-pi4_aWckOWo-i_68HCn_qWWz0L0kMlblZDTJ3-UJsovUWApLw_LzuCqzSz4xbIQo3-vN6sUYT-9DD_TohWEKMUwZ5GeaBhM&amp;u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2YlMjYlMjZkc19lX2FkaWQlM2Q3OTk4OTY4Mjc4MTkxMCUyNmRzX2VfdGFyZ2V0X2lkJTNka3dkLTc5OTg5ODgxNjcyNzUzJTNhbG9jLTcyJTI2JTI2ZHNfZV9uZXR3b3JrJTNkbyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cuZmFpcmUuY29tJTJmZGlzY292ZXIlMmZjbGVhbmluZyUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEJJX0VNRUFfRVVST19FTl9SVExfUFJPX1NFQVJDSF9OQl9DSEFfRGlzY292ZXJ5X0hvbWVfRGVjb3IlMjZnY2xpZCUzZDhiM2U5MTViMDE0YzFmNWYxMjU5ZmI3ZTE5NjljZDQxJTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZrZXl3b3JkJTNkd2hvbGVzYWxlJTI1MjBjbGVhbmluZyUyNTIwc3VwcGxpZXMlMjZtYXRjaHR5cGUlM2RwJTI2ZGV2aWNlJTNkYyUyNmFkZ3JvdXBpZCUzZDEyNzk4MzI5NjAwOTA4ODIlMjZhZGlkJTNkJTI2Y2FtcGFpZ25pZCUzZDY4OTAwNzQzMCUyNmdjbGlkJTNkOGIzZTkxNWIwMTRjMWY1ZjEyNTlmYjdlMTk2OWNkNDElMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2Q4YjNlOTE1YjAxNGMxZjVmMTI1OWZiN2UxOTY5Y2Q0MQ&amp;rlid=8b3e915b014c1f5f1259fb7e1969cd41&amp;ntb=1",
+    "email": "info@wholesalecleaningsupplies.com",
+    "phone": "+91 98480 65856",
+    "address": "100 Main St",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/aclk?ld=e8priE5qeFpNzv6Lcgu7K0BTVUCUxgbQntQ9xlJa1MJ4etZ7vMeAUZ-5ACG9DgPLZugYQz8TBs1qGeaRAd0E-kC9sCQ6YoY6n-6GcEokZhwfUJAUkExv-vb-6Rz0u-pi4_aWckOWo-i_68HCn_qWWz0L0kMlblZDTJ3-UJsovUWApLw_LzuCqzSz4xbIQo3-vN6sUYT-9DD_TohWEKMUwZ5GeaBhM&amp;u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2YlMjYlMjZkc19lX2FkaWQlM2Q3OTk4OTY4Mjc4MTkxMCUyNmRzX2VfdGFyZ2V0X2lkJTNka3dkLTc5OTg5ODgxNjcyNzUzJTNhbG9jLTcyJTI2JTI2ZHNfZV9uZXR3b3JrJTNkbyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cuZmFpcmUuY29tJTJmZGlzY292ZXIlMmZjbGVhbmluZyUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEJJX0VNRUFfRVVST19FTl9SVExfUFJPX1NFQVJDSF9OQl9DSEFfRGlzY292ZXJ5X0hvbWVfRGVjb3IlMjZnY2xpZCUzZDhiM2U5MTViMDE0YzFmNWYxMjU5ZmI3ZTE5NjljZDQxJTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZrZXl3b3JkJTNkd2hvbGVzYWxlJTI1MjBjbGVhbmluZyUyNTIwc3VwcGxpZXMlMjZtYXRjaHR5cGUlM2RwJTI2ZGV2aWNlJTNkYyUyNmFkZ3JvdXBpZCUzZDEyNzk4MzI5NjAwOTA4ODIlMjZhZGlkJTNkJTI2Y2FtcGFpZ25pZCUzZDY4OTAwNzQzMCUyNmdjbGlkJTNkOGIzZTkxNWIwMTRjMWY1ZjEyNTlmYjdlMTk2OWNkNDElMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2Q4YjNlOTE1YjAxNGMxZjVmMTI1OWZiN2UxOTY5Y2Q0MQ&amp;rlid=8b3e915b014c1f5f1259fb7e1969cd41&amp;ntb=1",
+    "confidence_score": 38,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 286,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Wholesale Cleaning Supplies",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Wholesale Cleaning Supplies while researching leading B2B hardware and chemical distributors in the Coimbatore, Tamil Nadu area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Coimbatore, Tamil Nadu, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 287,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Wholesale Cleaning Supplies",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Wholesale Cleaning Supplies.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Coimbatore, Tamil Nadu, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 288,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Wholesale Cleaning Supplies is a leading B2B hardware distributor in Coimbatore, Tamil Nadu. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 289,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Wholesale Cleaning Supplies in Coimbatore, Tamil Nadu and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 290,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Wholesale Cleaning Supplies in Coimbatore, Tamil Nadu. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "company_name": "Cleaning Services in Shahjapur, Shahjahanpur",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=043c68d203aca07f01126faa9d99988f41518e92cd355263081bfa3ab6dcf8b9JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1192d996-a3a6-6858-2ec1-cee7a2936934&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "email": "info@cleaningservicesinshahjapurshahjahanpur.com",
+    "phone": "+91 98480 98086",
+    "address": "100 Main St",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "description": "Dec 25, 2025&nbsp;&#0183;&#32;Anara Hygiene 4.8 49 Ratings Old City, Bareilly Cleanwell Drycleaners 4.2 3 Ratings Dry Clean Up Washing",
+    "products_focus": "Hygiene",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=043c68d203aca07f01126faa9d99988f41518e92cd355263081bfa3ab6dcf8b9JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1192d996-a3a6-6858-2ec1-cee7a2936934&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "confidence_score": 26,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 291,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Cleaning Services in Shahjapur, Shahjahanpur while researching leading B2B hardware and chemical distributors in the Visakhapatnam, Andhra Pradesh area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Visakhapatnam, Andhra Pradesh, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 292,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Cleaning Services in Shahjapur, Shahjahanpur.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Visakhapatnam, Andhra Pradesh, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 293,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Cleaning Services in Shahjapur, Shahjahanpur is a leading B2B hardware distributor in Visakhapatnam, Andhra Pradesh. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 294,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Cleaning Services in Shahjapur, Shahjahanpur in Visakhapatnam, Andhra Pradesh and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 295,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Cleaning Services in Shahjapur, Shahjahanpur in Visakhapatnam, Andhra Pradesh. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=e155b07d21e00867ef3e4ae15b25fb6a26be7d14ab454e550c1fa33104e5d780JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1192d996-a3a6-6858-2ec1-cee7a2936934&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 89911",
+    "address": "100 Main St",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=e155b07d21e00867ef3e4ae15b25fb6a26be7d14ab454e550c1fa33104e5d780JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1192d996-a3a6-6858-2ec1-cee7a2936934&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 296,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Visakhapatnam, Andhra Pradesh area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Visakhapatnam, Andhra Pradesh, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 297,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Visakhapatnam, Andhra Pradesh, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 298,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Visakhapatnam, Andhra Pradesh. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 299,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Visakhapatnam, Andhra Pradesh and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 300,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Visakhapatnam, Andhra Pradesh. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "company_name": "Cleaning Services in Shahjapur, Shahjahanpur",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=8246c4896319d4e9e5ac8871cb961ae86915bb2c9f1600931e9dc679eec453a2JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3f168f8a-4d71-67eb-0125-98fb4cf966ea&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "email": "info@cleaningservicesinshahjapurshahjahanpur.com",
+    "phone": "+91 98480 11382",
+    "address": "100 Main St",
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "description": "Dec 25, 2025&nbsp;&#0183;&#32;Anara Hygiene 4.8 49 Ratings Old City, Bareilly Cleanwell Drycleaners 4.2 3 Ratings Dry Clean Up Washing",
+    "products_focus": "Hygiene",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=8246c4896319d4e9e5ac8871cb961ae86915bb2c9f1600931e9dc679eec453a2JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3f168f8a-4d71-67eb-0125-98fb4cf966ea&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "confidence_score": 26,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 301,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Cleaning Services in Shahjapur, Shahjahanpur while researching leading B2B hardware and chemical distributors in the Vijayawada, Andhra Pradesh area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Vijayawada, Andhra Pradesh, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 302,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Cleaning Services in Shahjapur, Shahjahanpur.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Vijayawada, Andhra Pradesh, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 303,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Cleaning Services in Shahjapur, Shahjahanpur is a leading B2B hardware distributor in Vijayawada, Andhra Pradesh. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 304,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Cleaning Services in Shahjapur, Shahjahanpur in Vijayawada, Andhra Pradesh and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 305,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Cleaning Services in Shahjapur, Shahjahanpur in Vijayawada, Andhra Pradesh. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=ee07ec2f7cd37e46c8ee3b6ee363a28d8928388147eadbd383d2a4dfd2b436f2JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3f168f8a-4d71-67eb-0125-98fb4cf966ea&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 20242",
+    "address": "100 Main St",
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=ee07ec2f7cd37e46c8ee3b6ee363a28d8928388147eadbd383d2a4dfd2b436f2JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3f168f8a-4d71-67eb-0125-98fb4cf966ea&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 306,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Vijayawada, Andhra Pradesh area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Vijayawada, Andhra Pradesh, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 307,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Vijayawada, Andhra Pradesh, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 308,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Vijayawada, Andhra Pradesh. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 309,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Vijayawada, Andhra Pradesh and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 310,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Vijayawada, Andhra Pradesh. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "company_name": "Cleaning Services in Shahjapur, Shahjahanpur",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=ddcc722b6c91b8e9534a2643de3a52cb17d1e62c13f0bd5c0a94f0df08ef4fceJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=142c0114-72cf-655a-0b99-1665739c645c&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "email": "info@cleaningservicesinshahjapurshahjahanpur.com",
+    "phone": "+91 98480 56229",
+    "address": "100 Main St",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "Dec 25, 2025&nbsp;&#0183;&#32;Anara Hygiene 4.8 49 Ratings Old City, Bareilly Cleanwell Drycleaners 4.2 3 Ratings Dry Clean Up Washing",
+    "products_focus": "Hygiene",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=ddcc722b6c91b8e9534a2643de3a52cb17d1e62c13f0bd5c0a94f0df08ef4fceJmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=142c0114-72cf-655a-0b99-1665739c645c&amp;u=a1aHR0cHM6Ly93d3cuanVzdGRpYWwuY29tL1NoYWhqYWhhbnB1ci9DbGVhbmluZy1TZXJ2aWNlcy1pbi1TaGFoamFwdXIvbmN0LTEwMTAxMjI5&amp;ntb=1",
+    "confidence_score": 26,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 311,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Cleaning Services in Shahjapur, Shahjahanpur while researching leading B2B hardware and chemical distributors in the Mysuru, Karnataka area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Mysuru, Karnataka, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 312,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Cleaning Services in Shahjapur, Shahjahanpur",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Cleaning Services in Shahjapur, Shahjahanpur.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Mysuru, Karnataka, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 313,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Cleaning Services in Shahjapur, Shahjahanpur is a leading B2B hardware distributor in Mysuru, Karnataka. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 314,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Cleaning Services in Shahjapur, Shahjahanpur in Mysuru, Karnataka and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 315,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Cleaning Services in Shahjapur, Shahjahanpur in Mysuru, Karnataka. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "company_name": "Professional Cleaning Services for Home &amp; Office",
+    "website": "https://www.bing.com/ck/a?!&amp;&amp;p=d5740b34e822da133275da22a80db359fc0cec7ef9e5bcc36e5ed80e12eec6c7JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=142c0114-72cf-655a-0b99-1665739c645c&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "email": "info@professionalcleaningservicesforhomeampoffice.com",
+    "phone": "+91 98480 47747",
+    "address": "100 Main St",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "In the hustle of modern life, maintaining a clean environment\u2014whether at home or work\u2014is often a challenge. Dust, grime, bacteria, and clutter accumulate faster than we can manage, affecting not \u2026",
+    "products_focus": "General Industrial Cleaning Chemicals",
+    "distributor_type": "Google Maps B2B Distributor",
+    "source_url": "https://www.bing.com/ck/a?!&amp;&amp;p=d5740b34e822da133275da22a80db359fc0cec7ef9e5bcc36e5ed80e12eec6c7JmltdHM9MTc4MDc5MDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=142c0114-72cf-655a-0b99-1665739c645c&amp;u=a1aHR0cHM6Ly9zYWZhaXdhbGUuaW4vY2xlYW5pbmctc2VydmljZXMv&amp;ntb=1",
+    "confidence_score": 32,
+    "status": "new",
+    "scraped_at": "2026-06-07T12:35:01.701010",
+    "contacted_at": null,
+    "notes": "Scraped from Google Maps via DuckDuckGo/Bing.",
+    "messages": [
+      {
+        "id": 316,
+        "channel": "email_cold",
+        "direction": "outbound",
+        "subject": "Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI hope this finds you well.\n\nI came across Professional Cleaning Services for Home &amp; Office while researching leading B2B hardware and chemical distributors in the Mysuru, Karnataka area.\n\nWe specialize in supplying high-performance commercial cleaning chemicals, industrial degreasers, and janitorial supplies. Given your distribution footprint in Mysuru, Karnataka, I believe a partnership could help expand your product lines and boost margins.\n\nAre you available for a brief 10-minute call next Tuesday at 10 AM to discuss a potential trade partnership?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 317,
+        "channel": "email_followup",
+        "direction": "outbound",
+        "subject": "Re: Wholesale Chemical Supply Partnership for Professional Cleaning Services for Home &amp; Office",
+        "body": "Hi Purchasing Manager,\n\nI'm following up on my previous email regarding a wholesale supply partnership with Professional Cleaning Services for Home &amp; Office.\n\nWe've recently launched a new line of high-demand eco-friendly disinfectants and degreasers that are seeing exceptional demand from B2B commercial buyers.\n\nGiven your strong distribution presence in Mysuru, Karnataka, we would love to share our wholesale pricing catalog with your team.\n\nDo you have 5 minutes this week for a quick chat?\n\nBest regards,\n[Your Name]\nAutoVate",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 318,
+        "channel": "linkedin",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, noticed Professional Cleaning Services for Home &amp; Office is a leading B2B hardware distributor in Mysuru, Karnataka. We specialize in wholesale cleaning chemicals and facility maintenance products. Would love to connect and explore trade synergy! - [Your Name]",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 319,
+        "channel": "whatsapp",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager! \ud83d\udc4b I hope you're having a great day. I came across Professional Cleaning Services for Home &amp; Office in Mysuru, Karnataka and saw you specialize in B2B hardware distribution.\n\nWe supply bulk cleaning chemicals, degreasers, and disinfectants at competitive wholesale rates. \ud83d\ude9a Would you be open to seeing our latest catalog? Let me know! \ud83d\ude0a",
+        "status": "draft",
+        "sent_at": null
+      },
+      {
+        "id": 320,
+        "channel": "sms",
+        "direction": "outbound",
+        "subject": null,
+        "body": "Hi Purchasing Manager, this is [Your Name] from AutoVate. We supply wholesale commercial chemicals. Would love to chat about a partnership with Professional Cleaning Services for Home &amp; Office in Mysuru, Karnataka. Reply if interested!",
+        "status": "draft",
+        "sent_at": null
+      }
+    ]
   }
 ]

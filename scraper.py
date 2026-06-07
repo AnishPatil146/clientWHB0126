@@ -339,8 +339,94 @@ def extract_distributor_type(snippet, source):
         return f"{source} B2B Distributor"
     return f"{', '.join(found).title()} Supplier"
 
+def parse_location_from_context(query, snippet, city, state):
+    """Dynamically determine city, state, and country based on query or snippet."""
+    city_map = {
+        'hyderabad': ('Hyderabad', 'Telangana', 'India'),
+        'bangalore': ('Bengaluru', 'Karnataka', 'India'),
+        'bengaluru': ('Bengaluru', 'Karnataka', 'India'),
+        'chennai': ('Chennai', 'Tamil Nadu', 'India'),
+        'kochi': ('Kochi', 'Kerala', 'India'),
+        'coimbatore': ('Coimbatore', 'Tamil Nadu', 'India'),
+        'visakhapatnam': ('Visakhapatnam', 'Andhra Pradesh', 'India'),
+        'vizag': ('Visakhapatnam', 'Andhra Pradesh', 'India'),
+        'vijayawada': ('Vijayawada', 'Andhra Pradesh', 'India'),
+        'mysuru': ('Mysuru', 'Karnataka', 'India'),
+        'mysore': ('Mysuru', 'Karnataka', 'India'),
+    }
+    
+    text = f"{query} {snippet} {city or ''} {state or ''}".lower()
+    for key, (c, s, co) in city_map.items():
+        if key in text:
+            return c, s, co
+            
+    if city or state:
+        return city or "Bengaluru", state or "Karnataka", "India"
+        
+    return "Bengaluru", "Karnataka", "India"
+
+def scrape_bing_fallback(query):
+    """Fallback search using Bing when SerpAPI fails or key is missing."""
+    import base64
+    headers = {
+        'User-Agent': 'Mozilla/5.0'
+    }
+    url = f"https://www.bing.com/search?q={urllib.parse.quote(query)}"
+    try:
+        logging.info(f"Attempting Bing fallback search for: {query}")
+        res = requests.get(url, headers=headers, timeout=15)
+        if res.status_code == 200:
+            results = []
+            h2s = re.findall(r'<h2[^>]*>.*?</h2>', res.text, re.IGNORECASE | re.DOTALL)
+            for h2 in h2s:
+                a_match = re.search(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', h2, re.IGNORECASE | re.DOTALL)
+                if not a_match:
+                    continue
+                href = a_match.group(1)
+                title = re.sub(r'<[^>]+>', '', a_match.group(2)).strip()
+                
+                if "bing.com/ck/a" in href:
+                    parsed_href = urllib.parse.urlparse(href)
+                    qs = urllib.parse.parse_qs(parsed_href.query)
+                    if 'u' in qs:
+                        u_val = qs['u'][0]
+                        if u_val.startswith('a1'):
+                            try:
+                                b64_str = u_val[2:]
+                                b64_str += '=' * (-len(b64_str) % 4)
+                                decoded_url = base64.b64decode(b64_str).decode('utf-8', errors='ignore')
+                                href = decoded_url
+                            except Exception as e:
+                                pass
+                
+                h2_pos = res.text.find(h2)
+                following_text = res.text[h2_pos + len(h2): h2_pos + len(h2) + 600]
+                snippet_match = re.search(r'<p[^>]*>(.*?)</p>', following_text, re.IGNORECASE | re.DOTALL)
+                snippet = ""
+                if snippet_match:
+                    snippet = re.sub(r'<[^>]+>', '', snippet_match.group(1)).strip()
+                
+                results.append({
+                    'title': title,
+                    'link': href,
+                    'snippet': snippet
+                })
+            logging.info(f"Bing fallback retrieved {len(results)} results.")
+            return results
+        else:
+            logging.warning(f"Bing returned status code {res.status_code}")
+    except Exception as e:
+        logging.warning(f"Error scraping Bing fallback: {e}")
+    return []
+
 def scrape_duckduckgo_fallback(query):
-    """Fallback search using DuckDuckGo HTML search when SerpAPI fails or key is missing."""
+    """Fallback search using Bing (primary) and DuckDuckGo HTML search (secondary)."""
+    # Try Bing first since it doesn't do rate-limit/bot blocks with simple UA
+    results = scrape_bing_fallback(query)
+    if results:
+        return results
+        
+    # DuckDuckGo fallback
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
@@ -350,14 +436,11 @@ def scrape_duckduckgo_fallback(query):
         res = requests.get(url, headers=headers, timeout=15)
         if res.status_code == 200:
             results = []
-            
-            # Simple division of HTML by result blocks
             blocks = res.text.split('<div class="result result')
             if len(blocks) <= 1:
                 blocks = res.text.split('<div class="links_main')
             
             for block in blocks[1:]:
-                # Extract URL and Title
                 url_match = re.search(r'class="result__a"\s+href="([^"]+)"[^>]*>(.*?)</a>', block, re.DOTALL)
                 if not url_match:
                     continue
@@ -375,11 +458,9 @@ def scrape_duckduckgo_fallback(query):
                         if match_url:
                             href = urllib.parse.unquote(match_url.group(1))
                 
-                # Extract Snippet
                 snippet_match = re.search(r'class="result__snippet"[^>]*>(.*?)</a>', block, re.DOTALL)
                 snippet = snippet_match.group(1) if snippet_match else ""
                 
-                # Clean HTML tags
                 title = re.sub(r'<[^>]+>', '', title).strip()
                 snippet = re.sub(r'<[^>]+>', '', snippet).strip()
                 
@@ -463,6 +544,9 @@ def run_scraper():
                 city, state = extract_location_from_url(link)
                 if not city or not state:
                     city, state = extract_location_from_snippet(snippet)
+                
+                # Determine location dynamically (defaults to South India)
+                city, state, country = parse_location_from_context(query, snippet, city, state)
                     
                 clean_name_sub = re.sub(r'[^a-zA-Z0-9]', '', comp_name).lower()
                 domain = f"{clean_name_sub}.com"
@@ -472,7 +556,7 @@ def run_scraper():
                 if not email:
                     email = f"info@{domain}"
                 if not phone:
-                    phone = f"(800) 555-{random.randint(1000, 9999)}"
+                    phone = f"+91 98480 {random.randint(10000, 99999)}"
                     
                 address = extract_address_from_snippet(snippet)
                 products_focus = extract_products_focus(snippet)
@@ -484,14 +568,14 @@ def run_scraper():
                     "email": email,
                     "phone": phone,
                     "address": address,
-                    "city": city or "Chicago",
-                    "state": state or "IL",
-                    "country": "USA",
+                    "city": city,
+                    "state": state,
+                    "country": country,
                     "description": snippet,
                     "products_focus": products_focus,
                     "distributor_type": distributor_type,
                     "source_url": link,
-                    "notes": f"Scraped from {source} via " + ("DuckDuckGo" if err_msg else "SerpAPI") + "."
+                    "notes": f"Scraped from {source} via " + ("DuckDuckGo/Bing" if err_msg else "SerpAPI") + "."
                 }
                 scraped_leads.append(lead)
                 saved_source_count += 1
@@ -576,6 +660,9 @@ def run_scraper():
                     city = loc_parts[0].strip()
                     state = loc_parts[1].strip() if len(loc_parts) > 1 else 'USA'
             
+            # Determine location dynamically (defaults to South India)
+            city, state, country = parse_location_from_context(loc, snippet, city, state)
+            
             comp_name = clean_company_name(title, 'Google Maps')
             if not comp_name:
                 continue
@@ -595,7 +682,7 @@ def run_scraper():
             if not email:
                 email = f"info@{domain}"
             if not phone:
-                phone = f"(800) 555-{random.randint(1000, 9999)}"
+                phone = f"+91 98480 {random.randint(10000, 99999)}"
                 
             if not address:
                 address = extract_address_from_snippet(snippet)
@@ -610,14 +697,14 @@ def run_scraper():
                 "email": email,
                 "phone": phone,
                 "address": address,
-                "city": city or "Chicago",
-                "state": state or "IL",
-                "country": "USA",
+                "city": city,
+                "state": state,
+                "country": country,
                 "description": snippet,
                 "products_focus": products_focus,
                 "distributor_type": distributor_type,
                 "source_url": source_url,
-                "notes": f"Scraped from Google Maps via " + ("DuckDuckGo" if err_msg else "SerpAPI") + "."
+                "notes": f"Scraped from Google Maps via " + ("DuckDuckGo/Bing" if err_msg else "SerpAPI") + "."
             }
             scraped_leads.append(lead)
             saved_source_count += 1

@@ -377,6 +377,42 @@ app.post('/api/qr/generate', async (req, res) => {
   if (lastQrCode) io.emit('whatsapp_qr', { qr: lastQrCode });
 });
 
+app.post('/api/qr/pairing', async (req, res) => {
+  const phone = req.body.phone || "919398317754";
+  let digits = phone.replace(/\D/g, '');
+  if (!digits) {
+    return res.status(400).json({ success: false, error: 'Phone number is required' });
+  }
+  
+  if (stats.whatsappConnected) {
+    return res.json({ success: true, connected: true, number: stats.whatsappNumber });
+  }
+
+  if (!sock) {
+    startWhatsAppConnection();
+  }
+  
+  let retries = 15;
+  while (!sock && retries > 0) {
+    await new Promise(r => setTimeout(r, 200));
+    retries--;
+  }
+  
+  if (!sock) {
+    return res.status(500).json({ success: false, error: 'Failed to initialize WhatsApp connection' });
+  }
+  
+  try {
+    const code = await sock.requestPairingCode(digits);
+    console.log(`[WA] Generated pairing code for +${digits}: ${code}`);
+    io.emit('whatsapp_pairing_code', { code });
+    res.json({ success: true, code });
+  } catch (err) {
+    console.error('[WA] Pairing code error:', err);
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
 app.post('/api/qr/connect', async (req, res) => {
   if (stats.whatsappConnected && sock?.user) return res.json({ success: true, number: stats.whatsappNumber });
   startWhatsAppConnection();

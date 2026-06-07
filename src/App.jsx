@@ -80,6 +80,9 @@ export default function App() {
   const [qrCode, setQrCode] = useState('');
   const [whatsappConnected, setWhatsappConnected] = useState(false);
   const [connectedNumber, setConnectedNumber] = useState(null);
+  const [pairingCode, setPairingCode] = useState('');
+  const [pairingLoading, setPairingLoading] = useState(false);
+  const [pairingPhone, setPairingPhone] = useState('919398317754');
 
   // Dashboard Stats & State
   const [stats, setStats] = useState({
@@ -267,6 +270,11 @@ export default function App() {
     socketRef.current.on('whatsapp_qr', (data) => {
       setQrCode(data.qr);
       setQrLoading(false);
+    });
+
+    socketRef.current.on('whatsapp_pairing_code', (data) => {
+      setPairingCode(data.code);
+      setPairingLoading(false);
     });
 
     socketRef.current.on('scraper_progress', (data) => {
@@ -586,6 +594,31 @@ export default function App() {
     } catch (err) {
       console.error(err);
       setQrLoading(false);
+    }
+  };
+
+  const handleGeneratePairing = async () => {
+    setPairingLoading(true);
+    try {
+      const res = await fetch(`${BACKEND_URL}/api/qr/pairing`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ phone: pairingPhone })
+      });
+      const data = await res.json();
+      if (data.success) {
+        if (data.connected) {
+          setWhatsappConnected(true);
+          setConnectedNumber(data.number);
+          setStep(4);
+        } else if (data.code) {
+          setPairingCode(data.code);
+        }
+      }
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setPairingLoading(false);
     }
   };
 
@@ -1147,78 +1180,158 @@ export default function App() {
               </div>
             )}
 
-            {/* STEP 3: WHATSAPP QR CONNECTION */}
+            {/* STEP 3: WHATSAPP CONNECTION (QR + PAIRING KEY) */}
             {step === 3 && (
               <div className="space-y-6">
                 <div>
                   <h2 className="font-outfit font-bold text-xl text-slate-900 dark:text-white mb-2">WhatsApp Channel Setup</h2>
                   <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
-                    Link your WhatsApp Business device to send cold-pitches. Generate a secure QR connection code.
+                    Link your WhatsApp Business device to send cold-pitches. Choose to either scan the QR Code or generate a Pairing Key.
                   </p>
                 </div>
 
-                <div className="flex flex-col items-center justify-center py-4 space-y-4">
-                  {/* QR Box Frame */}
-                  <div className="relative w-56 h-56 border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 flex items-center justify-center rounded-xl overflow-hidden shadow-inner">
-                    {qrLoading && (
-                      <span className="text-xs font-semibold text-slate-400">Generating Baileys channel...</span>
-                    )}
-                    
-                    {!qrLoading && !qrCode && (
-                      <div className="text-center p-4">
-                        <i className="ti ti-qrcode text-4xl text-slate-300 dark:text-slate-700 block mb-2"></i>
-                        <span className="text-xs font-semibold text-slate-400">Node standby</span>
-                      </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch py-4">
+                  {/* Option A: QR Code */}
+                  <div className="flex flex-col items-center justify-between p-5 border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 rounded-2xl relative shadow-inner">
+                    <div className="text-center mb-3">
+                      <span className="badge bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] uppercase tracking-wider font-bold py-1 px-2.5 rounded-full mb-2 inline-block">
+                        Option A: QR Code
+                      </span>
+                      <p className="text-xs text-slate-500 dark:text-slate-400">Scan with WhatsApp Linked Devices</p>
+                    </div>
+
+                    <div className="relative w-44 h-44 border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 flex items-center justify-center rounded-xl overflow-hidden shadow-sm">
+                      {qrLoading && (
+                        <span className="text-xs font-semibold text-slate-400 animate-pulse">Generating...</span>
+                      )}
+                      
+                      {!qrLoading && !qrCode && !whatsappConnected && (
+                        <div className="text-center p-4">
+                          <i className="ti ti-qrcode text-3xl text-slate-300 dark:text-slate-700 block mb-2"></i>
+                          <span className="text-[10px] font-semibold text-slate-400">Not generated</span>
+                        </div>
+                      )}
+
+                      {!qrLoading && qrCode && !whatsappConnected && (
+                        <>
+                          <div className="p-2 bg-white rounded-lg">
+                            <img
+                              src={qrCode}
+                              alt="WhatsApp QR Code"
+                              className="w-36 h-36 object-contain"
+                            />
+                          </div>
+                          <div className="laser-line"></div>
+                        </>
+                      )}
+
+                      {whatsappConnected && (
+                        <div className="text-center p-4 animate-fade-in space-y-1">
+                          <div className="w-10 h-10 rounded-full bg-emerald-100 dark:bg-emerald-950/30 flex items-center justify-center text-emerald-600 dark:text-emerald-400 mx-auto shadow-sm">
+                            <i className="ti ti-circle-check text-xl"></i>
+                          </div>
+                          <span className="badge bg-emerald-100 text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400 text-xs font-bold py-1 px-2.5 rounded-full inline-block">
+                            Connected
+                          </span>
+                        </div>
+                      )}
+                    </div>
+
+                    {!qrCode && !whatsappConnected && (
+                      <button
+                        onClick={handleGenerateQR}
+                        disabled={qrLoading || pairingLoading}
+                        className="mt-4 w-full bg-brand hover:bg-brand-dark text-white font-semibold py-2 px-4 rounded-lg text-xs transition disabled:opacity-50"
+                      >
+                        {qrLoading ? 'Generating...' : 'Get QR Code'}
+                      </button>
                     )}
 
-                    {!qrLoading && qrCode && !whatsappConnected && (
-                      <>
-                        {/* QR Code Dynamic Base64 Image */}
-                        <div className="p-3 bg-white rounded-lg shadow-md">
-                          <img
-                            src={qrCode}
-                            alt="WhatsApp QR Code"
-                            className="w-40 h-40 object-contain"
-                          />
-                        </div>
-                        {/* Laser Scan line animation */}
-                        <div className="laser-line"></div>
-                      </>
+                    {qrCode && !whatsappConnected && (
+                      <button
+                        onClick={handleScanSimulation}
+                        className="mt-4 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2 px-4 rounded-lg text-xs shadow-md transition"
+                      >
+                        Simulate Link Scan
+                      </button>
                     )}
 
                     {whatsappConnected && (
-                      <div className="text-center p-4 animate-fade-in space-y-2">
-                        <div className="w-12 h-12 rounded-full bg-emerald-100 dark:bg-emerald-950/30 flex items-center justify-center text-emerald-600 dark:text-emerald-400 mx-auto shadow-sm">
-                          <i className="ti ti-circle-check text-2xl"></i>
-                        </div>
-                        <span className="badge bg-emerald-100 text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400 text-xs font-bold py-1 px-3.5 rounded-full inline-block">
-                          WhatsApp Connected
-                        </span>
-                        <div className="text-xs text-slate-500 font-mono tracking-wide">{connectedNumber}</div>
-                      </div>
+                      <div className="mt-4 text-xs text-slate-500 font-mono tracking-wide">{connectedNumber}</div>
                     )}
                   </div>
 
-                  {/* Connect actions */}
-                  {!qrCode && (
-                    <button
-                      onClick={handleGenerateQR}
-                      disabled={qrLoading}
-                      className="w-full bg-brand hover:bg-brand-dark text-white font-semibold py-3 rounded-lg text-sm transition"
-                    >
-                      {qrLoading ? 'Generating QR...' : 'Generate Node Connection QR'}
-                    </button>
-                  )}
+                  {/* Option B: Pairing Key */}
+                  <div className="flex flex-col items-center justify-between p-5 border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 rounded-2xl relative shadow-inner">
+                    <div className="text-center mb-3">
+                      <span className="badge bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] uppercase tracking-wider font-bold py-1 px-2.5 rounded-full mb-2 inline-block">
+                        Option B: Pairing Key
+                      </span>
+                      <p className="text-xs text-slate-500 dark:text-slate-400">Link with Phone Number instead</p>
+                    </div>
 
-                  {qrCode && !whatsappConnected && (
-                    <button
-                      onClick={handleScanSimulation}
-                      className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 rounded-lg text-sm shadow-md transition"
-                    >
-                      Simulate Device Link Scan
-                    </button>
-                  )}
+                    <div className="w-full flex flex-col items-center justify-center flex-1 space-y-3">
+                      {pairingLoading && (
+                        <span className="text-xs font-semibold text-slate-400 animate-pulse">Requesting Pairing Key...</span>
+                      )}
 
+                      {!pairingLoading && !pairingCode && !whatsappConnected && (
+                        <div className="w-full space-y-2.5">
+                          <div className="text-left w-full">
+                            <label className="text-[10px] uppercase font-bold text-slate-400 block mb-1">WhatsApp Phone Number</label>
+                            <input
+                              type="text"
+                              value={pairingPhone}
+                              onChange={(e) => setPairingPhone(e.target.value)}
+                              placeholder="e.g., 919398317754"
+                              className="w-full text-xs bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-2 font-mono"
+                            />
+                          </div>
+                          <button
+                            onClick={handleGeneratePairing}
+                            disabled={qrLoading || pairingLoading}
+                            className="w-full bg-brand hover:bg-brand-dark text-white font-semibold py-2 px-4 rounded-lg text-xs transition disabled:opacity-50"
+                          >
+                            Get Pairing Key
+                          </button>
+                        </div>
+                      )}
+
+                      {!pairingLoading && pairingCode && !whatsappConnected && (
+                        <div className="text-center space-y-3 w-full">
+                          <div className="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-xl p-3 shadow-sm">
+                            <div className="text-[10px] uppercase font-bold text-slate-400 mb-1">Enter this pairing key:</div>
+                            <div className="text-2xl font-bold tracking-widest font-mono text-brand select-all bg-slate-50 dark:bg-slate-900 py-1.5 px-3 rounded-lg border border-slate-100 dark:border-slate-800">
+                              {pairingCode}
+                            </div>
+                          </div>
+                          <button
+                            onClick={() => {
+                              navigator.clipboard.writeText(pairingCode);
+                              alert("Copied pairing key!");
+                            }}
+                            className="w-full border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 py-1.5 px-4 rounded-lg text-xs transition"
+                          >
+                            Copy Key
+                          </button>
+                        </div>
+                      )}
+
+                      {whatsappConnected && (
+                        <div className="text-center p-4 animate-fade-in space-y-1">
+                          <div className="w-10 h-10 rounded-full bg-emerald-100 dark:bg-emerald-950/30 flex items-center justify-center text-emerald-600 dark:text-emerald-400 mx-auto shadow-sm">
+                            <i className="ti ti-circle-check text-xl"></i>
+                          </div>
+                          <span className="badge bg-emerald-100 text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400 text-xs font-bold py-1 px-2.5 rounded-full inline-block">
+                            Connected
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-col space-y-3 pt-2">
                   {whatsappConnected && (
                     <div className="w-full space-y-3">
                       <button
@@ -1239,11 +1352,6 @@ export default function App() {
 
                   {!whatsappConnected && (
                     <button
-                      onClick={async () => {
-                        await handleDisconnectNode();
-                        setQrLoading(false);
-                      }}
-                      className="mt-3 text-xs text-slate-400 hover:text-red-500 font-semibold transition underline cursor-pointer"
                     >
                       Reset WhatsApp Session & Clear Cache
                     </button>
